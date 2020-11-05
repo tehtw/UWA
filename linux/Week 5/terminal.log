@@ -1,0 +1,1206 @@
+sysadmin@UbuntuDesktop:~$ ls
+ 20190505epscript.tar         passwd.txt                      Templates
+ 27082020_Lynis.log           passwords.txt                  'To Upload'
+ 6                            Pictures                        user_script.sh
+ check_root.log               Player_Dealer_Correlation       user_script.sh.save
+ Cybersecurity-Lesson-Plans   Player_Dealer_Correlation.zip   user_secript
+ Desktop                      Public                          Videos
+ Documents                    python                          Week
+ Downloads                    research                       'Week 3'
+ Lucky_Duck_Invesigations     shadow                         'Week 4'
+ Music                        snap                           'Week 6'
+ nano                         sys_info.sh
+sysadmin@UbuntuDesktop:~$ sudo tar cvf hurrican-backup-10-11-2018.tar /var/log
+[sudo] password for sysadmin: 
+tar: Removing leading `/' from member names
+/var/log/
+/var/log/hp/
+/var/log/hp/tmp/
+/var/log/wtmp
+/var/log/auth.log.2.gz
+/var/log/mail.log.1
+/var/log/fontconfig.log
+/var/log/mail.log
+/var/log/dpkg.log.1
+/var/log/alternatives.log.3.gz
+/var/log/syslog.3.gz
+/var/log/bootstrap.log
+/var/log/syslog
+/var/log/dpkg.log.3.gz
+/var/log/syslog.4.gz
+/var/log/auth.log.3.gz
+/var/log/kern.log.2.gz
+/var/log/auth.log.4.gz
+/var/log/lastlog
+/var/log/syslog.6.gz
+/var/log/apache2/
+/var/log/apache2/error.log
+/var/log/apache2/access.log
+/var/log/apache2/other_vhosts_access.log
+/var/log/alternatives.log.2.gz
+/var/log/alternatives.log
+/var/log/kern.log
+/var/log/journal/
+/var/log/journal/e5853fe375964d39b27025eb6608e969/
+/var/log/journal/e5853fe375964d39b27025eb6608e969/system@00059742d126cbd8-8fde5c3ef5545679.journal~
+/var/log/journal/e5853fe375964d39b27025eb6608e969/system@0005ad1f9572c2c3-c8f719161cfb88e8.journal~
+/var/log/journal/e5853fe375964d39b27025eb6608e969/system@0005ad33cdbba500-56061a3755d358a9.journal~
+/var/log/journal/e5853fe375964d39b27025eb6608e969/system@7e858fb1ab9241558b7ff3552ffd3eaf-000000000000399c-0005ace2d3464be7.journal
+/var/log/journal/e5853fe375964d39b27025eb6608e969/system@0005ad3433bda387-92750cb081c374b7.journal~
+/var/log/journal/e5853fe375964d39b27025eb6608e969/system@00059742ccf258c3-01c663e4b24a6da1.journal~
+/var/log/journal/e5853fe375964d39b27025eb6608e969/system@7e858fb1ab9241558b7ff3552ffd3eaf-000000000000143d-0005aa6729e0b653.journal
+/var/log/journal/e5853fe375964d39b27025eb6608e969/system@0005ad6086848da0-8285effdc2004f09.journal~
+/var/log/journal/e5853fe375964d39b27025eb6608e969/user-1000@00059742d5b1110d-5b83e094f05bdabb.journal~
+/var/log/journal/e5853fe375964d39b27025eb6608e969/user-1008.journal
+/var/log/journal/e5853fe375964d39b27025eb6608e969/system.journal
+/var/log/journal/e5853fe375964d39b27025eb6608e969/user-1001@0917458f902140a78012f13deaf5c5f1-0000000000003be5-0005ace2d88594aa.journal
+/var/log/journal/e5853fe375964d39b27025eb6608e969/system@7e858fb1ab9241558b7ff3552ffd3eaf-0000000000003bf3-0005ace2d8adcc6b.journal
+/var/log/journal/e5853fe375964d39b27025eb6608e969/user-1000.journal
+/var/log/journal/e5853fe375964d39b27025eb6608e969/system@0005add9c59d448a-c7821b220881a5e9.journal~
+/var/log/journal/e5853fe375964d39b27025eb6608e969/system@7e858fb1ab9241558b7ff3552ffd3eaf-0000000000001263-0005aa6729948388.journal
+/var/log/journal/e5853fe375964d39b27025eb6608e969/system@0005ae3e0a560508-0876245561137ac0.journal~
+/var/log/journal/e5853fe375964d39b27025eb6608e969/user-1000@0005ad64c1543f44-920cbffba630f9bf.journal~
+/var/log/journal/e5853fe375964d39b27025eb6608e969/user-1002.journal
+/var/log/journal/e5853fe375964d39b27025eb6608e969/user-1001@0917458f902140a78012f13deaf5c5f1-0000000000000b12-00059742e0cf8cba.journal
+/var/log/journal/e5853fe375964d39b27025eb6608e969/system@fed3c224181944cdb53922cb4f90f935-0000000000000001-0005972d05e4b690.journal
+/var/log/journal/e5853fe375964d39b27025eb6608e969/user-1011.journal
+/var/log/journal/e5853fe375964d39b27025eb6608e969/system@0005adbd0ddda906-675998db31e31884.journal~
+/var/log/journal/e5853fe375964d39b27025eb6608e969/user-1000@0005ad1f8fc69b0a-ef24e6a8fa375eba.journal~
+/var/log/journal/e5853fe375964d39b27025eb6608e969/user-1001.journal
+/var/log/journal/e5853fe375964d39b27025eb6608e969/system@0005ae4a3eb2dda1-f1e046ac9030b65f.journal~
+/var/log/journal/e5853fe375964d39b27025eb6608e969/system@0005ad1f88233762-da2926686c076dcc.journal~
+/var/log/journal/e5853fe375964d39b27025eb6608e969/user-1000@0005ad1f9b457c71-40c64aa54a08fa23.journal~
+/var/log/journal/e5853fe375964d39b27025eb6608e969/user-1000@893d6dd392f847ea833abe05e03ef4dd-00000000000006dc-00059742d5b00913.journal
+/var/log/journal/e5853fe375964d39b27025eb6608e969/system@0005ad649847fe5a-6b722e7fb003da2f.journal~
+/var/log/journal/e5853fe375964d39b27025eb6608e969/system@0005ad33937d31ac-d309228e0decf3cd.journal~
+/var/log/journal/e5853fe375964d39b27025eb6608e969/user-1006.journal
+/var/log/journal/e5853fe375964d39b27025eb6608e969/user-1001@0917458f902140a78012f13deaf5c5f1-000000000000142f-0005aa6729df56ec.journal
+/var/log/journal/e5853fe375964d39b27025eb6608e969/user-1000@0005ad3445ae9a36-f17f9f175abe6b24.journal~
+/var/log/journal/e5853fe375964d39b27025eb6608e969/system@7e858fb1ab9241558b7ff3552ffd3eaf-0000000000000001-00059742d11d6f3f.journal
+/var/log/firewalld
+/var/log/apt/
+/var/log/apt/history.log.2.gz
+/var/log/apt/term.log.2.gz
+/var/log/apt/history.log.3.gz
+/var/log/apt/eipp.log.xz
+/var/log/apt/term.log.1.gz
+/var/log/apt/term.log.3.gz
+/var/log/apt/history.log
+/var/log/apt/history.log.1.gz
+/var/log/apt/term.log
+/var/log/kern.log.3.gz
+/var/log/alternatives.log.1
+/var/log/vboxadd-setup.log.3
+/var/log/apport.log.2.gz
+/var/log/speech-dispatcher/
+/var/log/gdm3/
+/var/log/vboxadd-uninstall.log
+/var/log/mail.log.4.gz
+/var/log/unattended-upgrades/
+/var/log/unattended-upgrades/unattended-upgrades-shutdown.log.1.gz
+/var/log/unattended-upgrades/unattended-upgrades.log.1.gz
+/var/log/unattended-upgrades/unattended-upgrades.log
+/var/log/unattended-upgrades/unattended-upgrades-shutdown.log
+/var/log/syslog.2.gz
+/var/log/samba/
+/var/log/samba/log.smbd.2.gz
+/var/log/samba/log.nmbd.1
+/var/log/samba/log.smbd
+/var/log/samba/log.
+/var/log/samba/log.nmbd.3.gz
+/var/log/samba/log.smbd.3.gz
+/var/log/samba/log.nmbd
+/var/log/samba/log.smbd.1
+/var/log/samba/cores/
+/var/log/samba/cores/smbd/
+/var/log/samba/cores/nmbd/
+/var/log/samba/log.nmbd.2.gz
+/var/log/dpkg.log.2.gz
+/var/log/btmp
+/var/log/Xorg.0.log
+/var/log/lynis.log
+/var/log/vboxadd-setup.log.2
+/var/log/Xorg.0.log.old
+/var/log/kern.log.1
+/var/log/faillog
+/var/log/btmp.1
+/var/log/auth.log.1
+/var/log/mail.log.2.gz
+/var/log/nginx/
+/var/log/nginx/error.log
+/var/log/nginx/access.log
+/var/log/installer/
+/var/log/installer/debug
+/var/log/installer/syslog
+/var/log/installer/version
+/var/log/installer/initial-status.gz
+/var/log/installer/telemetry
+/var/log/installer/casper.log
+/var/log/installer/media-info
+/var/log/installer/partman
+/var/log/vboxadd-setup.log.1
+/var/log/Xorg.1.log
+/var/log/chkrootkit/
+/var/log/apport.log.1
+/var/log/kern.log.4.gz
+/var/log/lynis-report.dat
+/var/log/apport.log
+/var/log/tallylog
+/var/log/dist-upgrade/
+/var/log/vboxadd-setup.log
+/var/log/syslog.7.gz
+/var/log/Xorg.1.log.old
+/var/log/dpkg.log
+/var/log/syslog.1
+/var/log/mail.log.3.gz
+/var/log/cups/
+/var/log/cups/error_log.1
+/var/log/cups/access_log.5.gz
+/var/log/cups/access_log.4.gz
+/var/log/cups/access_log.2.gz
+/var/log/cups/access_log.7.gz
+/var/log/cups/access_log.3.gz
+/var/log/cups/error_log
+/var/log/cups/access_log.6.gz
+/var/log/cups/access_log.1
+/var/log/cups/error_log.3.gz
+/var/log/cups/error_log.2.gz
+/var/log/cups/access_log
+/var/log/wtmp.1
+/var/log/auth.log
+/var/log/syslog.5.gz
+/var/log/vboxadd-install.log
+/var/log/gpu-manager.log
+sysadmin@UbuntuDesktop:~$ ls
+ 20190505epscript.tar             nano                            sys_info.sh
+ 27082020_Lynis.log               passwd.txt                      Templates
+ 6                                passwords.txt                  'To Upload'
+ check_root.log                   Pictures                        user_script.sh
+ Cybersecurity-Lesson-Plans       Player_Dealer_Correlation       user_script.sh.save
+ Desktop                          Player_Dealer_Correlation.zip   user_secript
+ Documents                        Public                          Videos
+ Downloads                        python                          Week
+ hurrican-backup-10-11-2018.tar   research                       'Week 3'
+ Lucky_Duck_Invesigations         shadow                         'Week 4'
+ Music                            snap                           'Week 6'
+sysadmin@UbuntuDesktop:~$ ll 
+total 444000
+drwxr-xr-x 31 sysadmin sysadmin      4096 Sep  1 21:52  ./
+drwxr-xr-x 20 root     root          4096 Aug 26 13:29  ../
+-rw-r--r--  1 sysadmin sysadmin     10240 Aug 25 07:29  20190505epscript.tar
+-rw-r--r--  1 sysadmin sysadmin     34228 Aug 26 14:30  27082020_Lynis.log
+drwxr-xr-x  3 sysadmin sysadmin      4096 Sep  1 08:27  6/
+-rw-r--r--  1 sysadmin sysadmin       448 Jul 14 10:00  .aliases
+-rw-------  1 sysadmin sysadmin     51825 Sep  1 09:16  .bash_history
+-rw-r--r--  1 sysadmin sysadmin       220 Nov 12  2019  .bash_logout
+-rw-r--r--  1 sysadmin sysadmin      3771 Nov 12  2019  .bashrc
+drwx------ 14 sysadmin sysadmin      4096 Aug 25 07:30  .cache/
+-rw-r--r--  1 sysadmin sysadmin   1144820 Aug 26 14:31  check_root.log
+drwx------ 16 sysadmin sysadmin      4096 Aug 25 02:17  .config/
+drwxr-xr-x  4 sysadmin sysadmin      4096 Jul 14 10:19  Cybersecurity-Lesson-Plans/
+drwxr-xr-x  2 sysadmin sysadmin      4096 Sep  1 07:25  Desktop/
+drwxr-xr-x  6 sysadmin sysadmin      4096 Aug 25 09:28  Documents/
+drwxr-xr-x  2 sysadmin sysadmin      4096 Nov 12  2019  Downloads/
+drwx------  3 sysadmin sysadmin      4096 Aug 18 00:52  .gnupg/
+-rw-r--r--  1 root     root     453120000 Sep  1 21:53  hurrican-backup-10-11-2018.tar
+-rw-------  1 sysadmin sysadmin      9342 Sep  1 21:09  .ICEauthority
+drwx------  3 sysadmin sysadmin      4096 Nov 12  2019  .local/
+drwxr-xr-x  3 sysadmin sysadmin      4096 Aug 21 07:25  Lucky_Duck_Invesigations/
+drwx------  5 sysadmin sysadmin      4096 Aug 16 21:58  .mozilla/
+drwxr-xr-x  2 sysadmin sysadmin      4096 Nov 12  2019  Music/
+-rw-r--r--  1 sysadmin sysadmin         0 Aug 26 02:57  nano
+-rw-r--r--  1 sysadmin sysadmin       134 Aug 20 07:56  passwd.txt
+-rw-r--r--  1 sysadmin sysadmin       301 Aug 20 08:08  passwords.txt
+drwxr-xr-x  2 sysadmin sysadmin      4096 Nov 12  2019  Pictures/
+drwx------  3 sysadmin sysadmin      4096 Aug 18 00:54  .pki/
+drwxr-xr-x  6 sysadmin sysadmin      4096 Aug 24 23:29  Player_Dealer_Correlation/
+-rw-r--r--  1 sysadmin sysadmin     50506 Aug 22 06:24  Player_Dealer_Correlation.zip
+-rw-r--r--  1 sysadmin sysadmin       807 Nov 12  2019  .profile
+drwxr-xr-x  2 sysadmin sysadmin      4096 Nov 12  2019  Public/
+drwxr-xr-x  5 sysadmin sysadmin      4096 Jul 14 10:21  python/
+drwxr-xr-x  4 sysadmin sysadmin      4096 Aug 18 08:18  research/
+drwxr-x---  2 root     root          4096 Aug 26 14:11  .rpmdb/
+-rw-r--r--  1 sysadmin sysadmin        66 Aug 27 07:35  .selected_editor
+-rw-r-----  1 root     root          1581 Aug 20 07:41  shadow
+drwxr-xr-x  4 sysadmin sysadmin      4096 Aug 18 00:54  snap/
+drwx------  2 sysadmin sysadmin      4096 Nov 12  2019  .ssh/
+-rw-r--r--  1 sysadmin sysadmin         0 Nov 12  2019  .sudo_as_admin_successful
+-rw-r--r--  1 sysadmin sysadmin         0 Sep  1 08:43  sys_info.sh
+drwxr-xr-x  2 sysadmin sysadmin      4096 Nov 12  2019  Templates/
+drwxr-xr-x  2 sysadmin sysadmin      4096 Aug 22 05:29 'To Upload'/
+-rw-r--r--  1 sysadmin sysadmin         0 Aug 26 02:57  user_script.sh
+-rw-r--r--  1 sysadmin sysadmin        51 Aug 26 04:48  user_script.sh.save
+-rw-r--r--  1 sysadmin sysadmin         0 Aug 26 02:57  user_secript
+-rw-r-----  1 sysadmin sysadmin         5 Sep  1 21:09  .vboxclient-clipboard.pid
+-rw-r-----  1 sysadmin sysadmin         5 Nov 13  2019  .vboxclient-display.pid
+-rw-r-----  1 sysadmin sysadmin         5 Sep  1 21:09  .vboxclient-display-svga-x11.pid
+-rw-r-----  1 sysadmin sysadmin         5 Sep  1 21:09  .vboxclient-draganddrop.pid
+-rw-r-----  1 sysadmin sysadmin         5 Sep  1 21:09  .vboxclient-seamless.pid
+drwxr-xr-x  2 sysadmin sysadmin      4096 Nov 12  2019  Videos/
+-rw-------  1 sysadmin sysadmin     23481 Aug 18 03:01  .viminfo
+drwxrwxr-x  3 sysadmin sysadmin      4096 Aug 18 00:54  .vscode/
+drwxr-xr-x  2 sysadmin sysadmin      4096 Sep  1 08:27  Week/
+drwxr-xr-x  6 sysadmin sysadmin      4096 Aug 22 05:00 'Week 3'/
+drwxr-xr-x  2 sysadmin sysadmin      4096 Aug 26 07:01 'Week 4'/
+drwxr-xr-x  3 sysadmin sysadmin      4096 Sep  1 09:16 'Week 6'/
+-rw-r--r--  1 sysadmin sysadmin       267 Aug 25 09:28  .wget-hsts
+sysadmin@UbuntuDesktop:~$ cd Documents/
+sysadmin@UbuntuDesktop:~/Documents$ ls
+20190505epscript.tar  emerg_back_sun.tar  epscript    missingfiles
+20190505.txt          emerg_backup.snar   ExploitTar  setup_scripts
+sysadmin@UbuntuDesktop:~/Documents$ cd epscript/
+sysadmin@UbuntuDesktop:~/Documents/epscript$ ll
+total 32
+drwxr-xr-x 8 sysadmin sysadmin 4096 Jul 14 10:15 ./
+drwxr-xr-x 6 sysadmin sysadmin 4096 Aug 25 09:28 ../
+drwxr-xr-x 3 sysadmin sysadmin 4096 Aug 25 07:58 backup/
+drwxr-xr-x 2 sysadmin sysadmin 4096 Jul 14 10:15 doctors/
+drwxr-xr-x 4 sysadmin sysadmin 4096 Jul 14 10:14 emergency/
+drwxr-xr-x 2 sysadmin sysadmin 4096 Jul 14 10:14 patients/
+drwxr-xr-x 5 sysadmin sysadmin 4096 Jul 14 10:14 testenvir/
+drwxr-xr-x 3 sysadmin sysadmin 4096 Jul 14 10:14 treatments/
+sysadmin@UbuntuDesktop:~/Documents/epscript$ cd ~
+sysadmin@UbuntuDesktop:~$ cd Week\ 5
+bash: cd: Week 5: No such file or directory
+sysadmin@UbuntuDesktop:~$ ls
+ 20190505epscript.tar             Lucky_Duck_Invesigations        python                user_secript
+ 27082020_Lynis.log               Music                           research              Videos
+ 6                                nano                            shadow                Week
+ check_root.log                   passwd.txt                      snap                 'Week 3'
+ Cybersecurity-Lesson-Plans       passwords.txt                   sys_info.sh          'Week 4'
+ Desktop                          Pictures                        Templates            'Week 6'
+ Documents                        Player_Dealer_Correlation      'To Upload'
+ Downloads                        Player_Dealer_Correlation.zip   user_script.sh
+ hurrican-backup-10-11-2018.tar   Public                          user_script.sh.save
+sysadmin@UbuntuDesktop:~$ mkdir Week 5
+mkdir: cannot create directory ‘Week’: File exists
+sysadmin@UbuntuDesktop:~$ ls
+ 20190505epscript.tar         hurrican-backup-10-11-2018.tar   Public           user_script.sh.save
+ 27082020_Lynis.log           Lucky_Duck_Invesigations         python           user_secript
+ 5                            Music                            research         Videos
+ 6                            nano                             shadow           Week
+ check_root.log               passwd.txt                       snap            'Week 3'
+ Cybersecurity-Lesson-Plans   passwords.txt                    sys_info.sh     'Week 4'
+ Desktop                      Pictures                         Templates       'Week 6'
+ Documents                    Player_Dealer_Correlation       'To Upload'
+ Downloads                    Player_Dealer_Correlation.zip    user_script.sh
+sysadmin@UbuntuDesktop:~$ mkdir Week 5
+mkdir: cannot create directory ‘Week’: File exists
+mkdir: cannot create directory ‘5’: File exists
+sysadmin@UbuntuDesktop:~$ mkdir Week\ 5
+sysadmin@UbuntuDesktop:~$ ls
+ 20190505epscript.tar         hurrican-backup-10-11-2018.tar   Public           user_script.sh.save
+ 27082020_Lynis.log           Lucky_Duck_Invesigations         python           user_secript
+ 5                            Music                            research         Videos
+ 6                            nano                             shadow           Week
+ check_root.log               passwd.txt                       snap            'Week 3'
+ Cybersecurity-Lesson-Plans   passwords.txt                    sys_info.sh     'Week 4'
+ Desktop                      Pictures                         Templates       'Week 5'
+ Documents                    Player_Dealer_Correlation       'To Upload'      'Week 6'
+ Downloads                    Player_Dealer_Correlation.zip    user_script.sh
+sysadmin@UbuntuDesktop:~$ cd Week\ 5
+sysadmin@UbuntuDesktop:~/Week 5$ ls
+sysadmin@UbuntuDesktop:~/Week 5$ mkdir Lesson 1
+sysadmin@UbuntuDesktop:~/Week 5$ ls
+1  Lesson
+sysadmin@UbuntuDesktop:~/Week 5$ rm 1
+rm: cannot remove '1': Is a directory
+sysadmin@UbuntuDesktop:~/Week 5$ rm -r 1
+sysadmin@UbuntuDesktop:~/Week 5$ rm -r Lesson
+sysadmin@UbuntuDesktop:~/Week 5$ ls
+sysadmin@UbuntuDesktop:~/Week 5$ mkdir Lesson\ 1
+sysadmin@UbuntuDesktop:~/Week 5$ ls
+'Lesson 1'
+sysadmin@UbuntuDesktop:~/Week 5$ cd Lesson\ 1
+sysadmin@UbuntuDesktop:~/Week 5/Lesson 1$ ls
+sysadmin@UbuntuDesktop:~/Week 5/Lesson 1$ mkdir backups
+sysadmin@UbuntuDesktop:~/Week 5/Lesson 1$ ls
+backups
+sysadmin@UbuntuDesktop:~/Week 5/Lesson 1$ cd backups/
+sysadmin@UbuntuDesktop:~/Week 5/Lesson 1/backups$ ls
+sysadmin@UbuntuDesktop:~/Week 5/Lesson 1/backups$ ll ~/Documents
+total 2640
+drwxr-xr-x  6 sysadmin sysadmin    4096 Aug 25 09:28 ./
+drwxr-xr-x 33 sysadmin sysadmin    4096 Sep  1 21:58 ../
+-rw-r--r--  1 sysadmin sysadmin 2652160 Aug 25 07:39 20190505epscript.tar
+-rw-r--r--  1 sysadmin sysadmin    4767 Aug 25 07:23 20190505.txt
+-rw-r--r--  1 sysadmin sysadmin   10240 Aug 25 08:26 emerg_back_sun.tar
+-rw-r--r--  1 sysadmin sysadmin      36 Aug 25 08:26 emerg_backup.snar
+drwxr-xr-x  8 sysadmin sysadmin    4096 Jul 14 10:15 epscript/
+drwxr-xr-x  2 sysadmin sysadmin    4096 Aug 25 09:28 ExploitTar/
+drwxr-xr-x  2 sysadmin sysadmin    4096 Jul 14 10:15 missingfiles/
+drwxr-xr-x  3 sysadmin sysadmin    4096 Jul 14 10:09 setup_scripts/
+sysadmin@UbuntuDesktop:~/Week 5/Lesson 1/backups$ tar cvf 20190505escript.tar ~/Documents/escript > 20190505escript.txt
+tar: Removing leading `/' from member names
+tar: /home/sysadmin/Documents/escript: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+sysadmin@UbuntuDesktop:~/Week 5/Lesson 1/backups$ tar cvf 20190505escript.tar ~/Documents/escript/ > 20190505escript.txt
+tar: Removing leading `/' from member names
+tar: /home/sysadmin/Documents/escript: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+sysadmin@UbuntuDesktop:~/Week 5/Lesson 1/backups$ tar cvf 20190505epscript.tar ~/Documents/epscript/ > 20190505escript.txt
+tar: Removing leading `/' from member names
+sysadmin@UbuntuDesktop:~/Week 5/Lesson 1/backups$ ls
+20190505epscript.tar  20190505escript.tar  20190505escript.txt
+sysadmin@UbuntuDesktop:~/Week 5/Lesson 1/backups$ rm -r 20190505epscript.tar 
+sysadmin@UbuntuDesktop:~/Week 5/Lesson 1/backups$ rm -r 20190505escript.tar
+sysadmin@UbuntuDesktop:~/Week 5/Lesson 1/backups$ rm -r 20190505escript.txt
+sysadmin@UbuntuDesktop:~/Week 5/Lesson 1/backups$ tar cvf 20190505epscript.tar ~/Documents/epscript/ > 20190505epscript.txt
+tar: Removing leading `/' from member names
+sysadmin@UbuntuDesktop:~/Week 5/Lesson 1/backups$ ls
+20190505epscript.tar  20190505epscript.txt
+sysadmin@UbuntuDesktop:~/Week 5/Lesson 1/backups$ ll 20190505epscript.tar
+-rw-r--r-- 1 sysadmin sysadmin 3461120 Sep  1 22:04 20190505epscript.tar
+sysadmin@UbuntuDesktop:~/Week 5/Lesson 1/backups$ cat 20190505epscript.txt
+/home/sysadmin/Documents/epscript/
+/home/sysadmin/Documents/epscript/treatments/
+/home/sysadmin/Documents/epscript/treatments/backup/
+/home/sysadmin/Documents/epscript/treatments/backup/10May2019-235536-0700.tar
+/home/sysadmin/Documents/epscript/testenvir/
+/home/sysadmin/Documents/epscript/testenvir/doctor/
+/home/sysadmin/Documents/epscript/testenvir/doctor/doctors.18.csv
+/home/sysadmin/Documents/epscript/testenvir/doctor/doctors.20.csv
+/home/sysadmin/Documents/epscript/testenvir/doctor/doctors.15.csv
+/home/sysadmin/Documents/epscript/testenvir/doctor/doctors.2.csv
+/home/sysadmin/Documents/epscript/testenvir/doctor/doctors.14.csv
+/home/sysadmin/Documents/epscript/testenvir/doctor/doctors.13.csv
+/home/sysadmin/Documents/epscript/testenvir/doctor/doctors.10.csv
+/home/sysadmin/Documents/epscript/testenvir/doctor/doctors.16.csv
+/home/sysadmin/Documents/epscript/testenvir/doctor/doctors.9.csv
+/home/sysadmin/Documents/epscript/testenvir/doctor/doctors.17.csv
+/home/sysadmin/Documents/epscript/testenvir/doctor/doctors.5.csv
+/home/sysadmin/Documents/epscript/testenvir/doctor/doctors.7.csv
+/home/sysadmin/Documents/epscript/testenvir/doctor/doctors.1.csv
+/home/sysadmin/Documents/epscript/testenvir/doctor/doctors.4.csv
+/home/sysadmin/Documents/epscript/testenvir/doctor/doctors.19.csv
+/home/sysadmin/Documents/epscript/testenvir/doctor/doctors.12.csv
+/home/sysadmin/Documents/epscript/testenvir/doctor/doctors.11.csv
+/home/sysadmin/Documents/epscript/testenvir/doctor/doctors.3.csv
+/home/sysadmin/Documents/epscript/testenvir/doctor/doctors.8.csv
+/home/sysadmin/Documents/epscript/testenvir/doctor/doctors.csv
+/home/sysadmin/Documents/epscript/testenvir/doctor/doctors.6.csv
+/home/sysadmin/Documents/epscript/testenvir/patient/
+/home/sysadmin/Documents/epscript/testenvir/patient/patients.20.csv
+/home/sysadmin/Documents/epscript/testenvir/patient/patients.6.csv
+/home/sysadmin/Documents/epscript/testenvir/patient/patients.13.csv
+/home/sysadmin/Documents/epscript/testenvir/patient/patients.10.csv
+/home/sysadmin/Documents/epscript/testenvir/patient/patients.7.csv
+/home/sysadmin/Documents/epscript/testenvir/patient/patients.15.csv
+/home/sysadmin/Documents/epscript/testenvir/patient/patients.11.csv
+/home/sysadmin/Documents/epscript/testenvir/patient/patients.2.csv
+/home/sysadmin/Documents/epscript/testenvir/patient/patients.19.csv
+/home/sysadmin/Documents/epscript/testenvir/patient/patients.17.csv
+/home/sysadmin/Documents/epscript/testenvir/patient/patients.5.csv
+/home/sysadmin/Documents/epscript/testenvir/patient/patients.csv
+/home/sysadmin/Documents/epscript/testenvir/patient/patients.9.csv
+/home/sysadmin/Documents/epscript/testenvir/patient/patients.1.csv
+/home/sysadmin/Documents/epscript/testenvir/patient/patients.12.csv
+/home/sysadmin/Documents/epscript/testenvir/patient/patients.14.csv
+/home/sysadmin/Documents/epscript/testenvir/patient/patients.8.csv
+/home/sysadmin/Documents/epscript/testenvir/patient/patients.18.csv
+/home/sysadmin/Documents/epscript/testenvir/patient/patients.3.csv
+/home/sysadmin/Documents/epscript/testenvir/patient/patients.16.csv
+/home/sysadmin/Documents/epscript/testenvir/patient/patients.4.csv
+/home/sysadmin/Documents/epscript/testenvir/treatment/
+/home/sysadmin/Documents/epscript/testenvir/treatment/treatments.13.csv
+/home/sysadmin/Documents/epscript/testenvir/treatment/treatments.9.csv
+/home/sysadmin/Documents/epscript/testenvir/treatment/treatments.14.csv
+/home/sysadmin/Documents/epscript/testenvir/treatment/treatments.20.csv
+/home/sysadmin/Documents/epscript/testenvir/treatment/treatments.7.csv
+/home/sysadmin/Documents/epscript/testenvir/treatment/treatments.8.csv
+/home/sysadmin/Documents/epscript/testenvir/treatment/treatments.19.csv
+/home/sysadmin/Documents/epscript/testenvir/treatment/treatments.6.csv
+/home/sysadmin/Documents/epscript/testenvir/treatment/treatments.5.csv
+/home/sysadmin/Documents/epscript/testenvir/treatment/treatments.12.csv
+/home/sysadmin/Documents/epscript/testenvir/treatment/treatments.csv
+/home/sysadmin/Documents/epscript/testenvir/treatment/treatments.11.csv
+/home/sysadmin/Documents/epscript/testenvir/treatment/treatments.1.csv
+/home/sysadmin/Documents/epscript/testenvir/treatment/treatments.15.csv
+/home/sysadmin/Documents/epscript/testenvir/treatment/treatments.18.csv
+/home/sysadmin/Documents/epscript/testenvir/treatment/treatments.4.csv
+/home/sysadmin/Documents/epscript/testenvir/treatment/treatments.2.csv
+/home/sysadmin/Documents/epscript/testenvir/treatment/treatments.10.csv
+/home/sysadmin/Documents/epscript/testenvir/treatment/treatments.17.csv
+/home/sysadmin/Documents/epscript/testenvir/treatment/treatments.3.csv
+/home/sysadmin/Documents/epscript/testenvir/treatment/treatments.16.csv
+/home/sysadmin/Documents/epscript/testenvir/treatment/backup/
+/home/sysadmin/Documents/epscript/testenvir/treatment/backup/10May2019-235536-0700.tar
+/home/sysadmin/Documents/epscript/patients/
+/home/sysadmin/Documents/epscript/patients/patients.20.csv
+/home/sysadmin/Documents/epscript/patients/patients.6.csv
+/home/sysadmin/Documents/epscript/patients/patients.13.csv
+/home/sysadmin/Documents/epscript/patients/patients.10.csv
+/home/sysadmin/Documents/epscript/patients/patients.7.csv
+/home/sysadmin/Documents/epscript/patients/patients.15.csv
+/home/sysadmin/Documents/epscript/patients/patients.11.csv
+/home/sysadmin/Documents/epscript/patients/patients.2.csv
+/home/sysadmin/Documents/epscript/patients/patients.19.csv
+/home/sysadmin/Documents/epscript/patients/patients.17.csv
+/home/sysadmin/Documents/epscript/patients/patients.5.csv
+/home/sysadmin/Documents/epscript/patients/patients.csv
+/home/sysadmin/Documents/epscript/patients/patients.9.csv
+/home/sysadmin/Documents/epscript/patients/patients.1.csv
+/home/sysadmin/Documents/epscript/patients/patients.12.csv
+/home/sysadmin/Documents/epscript/patients/patients.14.csv
+/home/sysadmin/Documents/epscript/patients/patients.8.csv
+/home/sysadmin/Documents/epscript/patients/patients.18.csv
+/home/sysadmin/Documents/epscript/patients/patients.3.csv
+/home/sysadmin/Documents/epscript/patients/patients.16.csv
+/home/sysadmin/Documents/epscript/patients/patients.4.csv
+/home/sysadmin/Documents/epscript/emergency/
+/home/sysadmin/Documents/epscript/emergency/.gitkeep
+/home/sysadmin/Documents/epscript/emergency/admit/
+/home/sysadmin/Documents/epscript/emergency/admit/file3.txt
+/home/sysadmin/Documents/epscript/emergency/admit/file1.txt
+/home/sysadmin/Documents/epscript/emergency/admit/file5.txt
+/home/sysadmin/Documents/epscript/emergency/admit/file4.txt
+/home/sysadmin/Documents/epscript/emergency/discharge/
+/home/sysadmin/Documents/epscript/emergency/discharge/file2.txt
+/home/sysadmin/Documents/epscript/doctors/
+/home/sysadmin/Documents/epscript/doctors/doctors.18.csv
+/home/sysadmin/Documents/epscript/doctors/doctors.20.csv
+/home/sysadmin/Documents/epscript/doctors/doctors.15.csv
+/home/sysadmin/Documents/epscript/doctors/doctors.2.csv
+/home/sysadmin/Documents/epscript/doctors/doctors.14.csv
+/home/sysadmin/Documents/epscript/doctors/doctors.13.csv
+/home/sysadmin/Documents/epscript/doctors/doctors.10.csv
+/home/sysadmin/Documents/epscript/doctors/doctors.16.csv
+/home/sysadmin/Documents/epscript/doctors/doctors.9.csv
+/home/sysadmin/Documents/epscript/doctors/doctors.17.csv
+/home/sysadmin/Documents/epscript/doctors/doctors.5.csv
+/home/sysadmin/Documents/epscript/doctors/doctors.7.csv
+/home/sysadmin/Documents/epscript/doctors/doctors.1.csv
+/home/sysadmin/Documents/epscript/doctors/doctors.4.csv
+/home/sysadmin/Documents/epscript/doctors/doctors.19.csv
+/home/sysadmin/Documents/epscript/doctors/doctors.12.csv
+/home/sysadmin/Documents/epscript/doctors/doctors.11.csv
+/home/sysadmin/Documents/epscript/doctors/doctors.3.csv
+/home/sysadmin/Documents/epscript/doctors/doctors.8.csv
+/home/sysadmin/Documents/epscript/doctors/doctors.csv
+/home/sysadmin/Documents/epscript/doctors/doctors.6.csv
+/home/sysadmin/Documents/epscript/backup/
+/home/sysadmin/Documents/epscript/backup/20190814epscript.tar
+/home/sysadmin/Documents/epscript/backup/epscript/
+/home/sysadmin/Documents/epscript/backup/epscript/treatments/
+/home/sysadmin/Documents/epscript/backup/epscript/treatments/treatments.9.csv
+/home/sysadmin/Documents/epscript/backup/epscript/treatments/treatments.7.csv
+/home/sysadmin/Documents/epscript/backup/epscript/treatments/treatments.8.csv
+/home/sysadmin/Documents/epscript/backup/epscript/treatments/treatments.6.csv
+/home/sysadmin/Documents/epscript/backup/epscript/treatments/treatments.5.csv
+/home/sysadmin/Documents/epscript/backup/epscript/treatments/treatments.csv
+/home/sysadmin/Documents/epscript/backup/epscript/treatments/treatments.1.csv
+/home/sysadmin/Documents/epscript/backup/epscript/treatments/treatments.4.csv
+/home/sysadmin/Documents/epscript/backup/epscript/treatments/treatments.2.csv
+/home/sysadmin/Documents/epscript/backup/epscript/treatments/treatments.10.csv
+/home/sysadmin/Documents/epscript/backup/epscript/treatments/treatments.3.csv
+/home/sysadmin/Documents/epscript/backup/epscript/patients/
+/home/sysadmin/Documents/epscript/backup/epscript/patients/patients.6.csv
+/home/sysadmin/Documents/epscript/backup/epscript/patients/patients.10.csv
+/home/sysadmin/Documents/epscript/backup/epscript/patients/patients.7.csv
+/home/sysadmin/Documents/epscript/backup/epscript/patients/patients.2.csv
+/home/sysadmin/Documents/epscript/backup/epscript/patients/patients.5.csv
+/home/sysadmin/Documents/epscript/backup/epscript/patients/patients.csv
+/home/sysadmin/Documents/epscript/backup/epscript/patients/patients.9.csv
+/home/sysadmin/Documents/epscript/backup/epscript/patients/patients.1.csv
+/home/sysadmin/Documents/epscript/backup/epscript/patients/patients.8.csv
+/home/sysadmin/Documents/epscript/backup/epscript/patients/patients.3.csv
+/home/sysadmin/Documents/epscript/backup/epscript/patients/patients.4.csv
+/home/sysadmin/Documents/epscript/backup/epscript/doctors/
+/home/sysadmin/Documents/epscript/backup/epscript/doctors/doctors.2.csv
+/home/sysadmin/Documents/epscript/backup/epscript/doctors/doctors.10.csv
+/home/sysadmin/Documents/epscript/backup/epscript/doctors/doctors.9.csv
+/home/sysadmin/Documents/epscript/backup/epscript/doctors/doctors.5.csv
+/home/sysadmin/Documents/epscript/backup/epscript/doctors/doctors.7.csv
+/home/sysadmin/Documents/epscript/backup/epscript/doctors/doctors.1.csv
+/home/sysadmin/Documents/epscript/backup/epscript/doctors/doctors.4.csv
+/home/sysadmin/Documents/epscript/backup/epscript/doctors/doctors.3.csv
+/home/sysadmin/Documents/epscript/backup/epscript/doctors/doctors.8.csv
+/home/sysadmin/Documents/epscript/backup/epscript/doctors/doctors.csv
+/home/sysadmin/Documents/epscript/backup/epscript/doctors/doctors.6.csv
+/home/sysadmin/Documents/epscript/backup/log_checksum.txt
+sysadmin@UbuntuDesktop:~/Week 5/Lesson 1/backups$ cat 20190505epscript.txt | less
+
+[1]+  Stopped                 cat 20190505epscript.txt | less
+sysadmin@UbuntuDesktop:~/Week 5/Lesson 1/backups$ less 20190505epscript.txt
+
+[2]+  Stopped                 less 20190505epscript.txt
+sysadmin@UbuntuDesktop:~/Week 5/Lesson 1/backups$ tar cvf 20190505epscript.tar /Documents/epscript/ > 20190505epscript.txt
+tar: Removing leading `/' from member names
+tar: /Documents/epscript: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+sysadmin@UbuntuDesktop:~/Week 5/Lesson 1/backups$ cd ~
+sysadmin@UbuntuDesktop:~$ cd Documents
+sysadmin@UbuntuDesktop:~/Documents$ tar cvf 20190505epscript.tar ./epscript/ > 20190505epscript.txt
+sysadmin@UbuntuDesktop:~/Documents$ ls
+20190505epscript.tar  20190505.txt        emerg_backup.snar  ExploitTar    setup_scripts
+20190505epscript.txt  emerg_back_sun.tar  epscript           missingfiles
+sysadmin@UbuntuDesktop:~/Documents$ cat 20190505epscript.txt | less
+sysadmin@UbuntuDesktop:~/Documents$ 
+sysadmin@UbuntuDesktop:~/Documents$ cat 20190505epscript.txt
+./epscript/
+./epscript/treatments/
+./epscript/treatments/backup/
+./epscript/treatments/backup/10May2019-235536-0700.tar
+./epscript/testenvir/
+./epscript/testenvir/doctor/
+./epscript/testenvir/doctor/doctors.18.csv
+./epscript/testenvir/doctor/doctors.20.csv
+./epscript/testenvir/doctor/doctors.15.csv
+./epscript/testenvir/doctor/doctors.2.csv
+./epscript/testenvir/doctor/doctors.14.csv
+./epscript/testenvir/doctor/doctors.13.csv
+./epscript/testenvir/doctor/doctors.10.csv
+./epscript/testenvir/doctor/doctors.16.csv
+./epscript/testenvir/doctor/doctors.9.csv
+./epscript/testenvir/doctor/doctors.17.csv
+./epscript/testenvir/doctor/doctors.5.csv
+./epscript/testenvir/doctor/doctors.7.csv
+./epscript/testenvir/doctor/doctors.1.csv
+./epscript/testenvir/doctor/doctors.4.csv
+./epscript/testenvir/doctor/doctors.19.csv
+./epscript/testenvir/doctor/doctors.12.csv
+./epscript/testenvir/doctor/doctors.11.csv
+./epscript/testenvir/doctor/doctors.3.csv
+./epscript/testenvir/doctor/doctors.8.csv
+./epscript/testenvir/doctor/doctors.csv
+./epscript/testenvir/doctor/doctors.6.csv
+./epscript/testenvir/patient/
+./epscript/testenvir/patient/patients.20.csv
+./epscript/testenvir/patient/patients.6.csv
+./epscript/testenvir/patient/patients.13.csv
+./epscript/testenvir/patient/patients.10.csv
+./epscript/testenvir/patient/patients.7.csv
+./epscript/testenvir/patient/patients.15.csv
+./epscript/testenvir/patient/patients.11.csv
+./epscript/testenvir/patient/patients.2.csv
+./epscript/testenvir/patient/patients.19.csv
+./epscript/testenvir/patient/patients.17.csv
+./epscript/testenvir/patient/patients.5.csv
+./epscript/testenvir/patient/patients.csv
+./epscript/testenvir/patient/patients.9.csv
+./epscript/testenvir/patient/patients.1.csv
+./epscript/testenvir/patient/patients.12.csv
+./epscript/testenvir/patient/patients.14.csv
+./epscript/testenvir/patient/patients.8.csv
+./epscript/testenvir/patient/patients.18.csv
+./epscript/testenvir/patient/patients.3.csv
+./epscript/testenvir/patient/patients.16.csv
+./epscript/testenvir/patient/patients.4.csv
+./epscript/testenvir/treatment/
+./epscript/testenvir/treatment/treatments.13.csv
+./epscript/testenvir/treatment/treatments.9.csv
+./epscript/testenvir/treatment/treatments.14.csv
+./epscript/testenvir/treatment/treatments.20.csv
+./epscript/testenvir/treatment/treatments.7.csv
+./epscript/testenvir/treatment/treatments.8.csv
+./epscript/testenvir/treatment/treatments.19.csv
+./epscript/testenvir/treatment/treatments.6.csv
+./epscript/testenvir/treatment/treatments.5.csv
+./epscript/testenvir/treatment/treatments.12.csv
+./epscript/testenvir/treatment/treatments.csv
+./epscript/testenvir/treatment/treatments.11.csv
+./epscript/testenvir/treatment/treatments.1.csv
+./epscript/testenvir/treatment/treatments.15.csv
+./epscript/testenvir/treatment/treatments.18.csv
+./epscript/testenvir/treatment/treatments.4.csv
+./epscript/testenvir/treatment/treatments.2.csv
+./epscript/testenvir/treatment/treatments.10.csv
+./epscript/testenvir/treatment/treatments.17.csv
+./epscript/testenvir/treatment/treatments.3.csv
+./epscript/testenvir/treatment/treatments.16.csv
+./epscript/testenvir/treatment/backup/
+./epscript/testenvir/treatment/backup/10May2019-235536-0700.tar
+./epscript/patients/
+./epscript/patients/patients.20.csv
+./epscript/patients/patients.6.csv
+./epscript/patients/patients.13.csv
+./epscript/patients/patients.10.csv
+./epscript/patients/patients.7.csv
+./epscript/patients/patients.15.csv
+./epscript/patients/patients.11.csv
+./epscript/patients/patients.2.csv
+./epscript/patients/patients.19.csv
+./epscript/patients/patients.17.csv
+./epscript/patients/patients.5.csv
+./epscript/patients/patients.csv
+./epscript/patients/patients.9.csv
+./epscript/patients/patients.1.csv
+./epscript/patients/patients.12.csv
+./epscript/patients/patients.14.csv
+./epscript/patients/patients.8.csv
+./epscript/patients/patients.18.csv
+./epscript/patients/patients.3.csv
+./epscript/patients/patients.16.csv
+./epscript/patients/patients.4.csv
+./epscript/emergency/
+./epscript/emergency/.gitkeep
+./epscript/emergency/admit/
+./epscript/emergency/admit/file3.txt
+./epscript/emergency/admit/file1.txt
+./epscript/emergency/admit/file5.txt
+./epscript/emergency/admit/file4.txt
+./epscript/emergency/discharge/
+./epscript/emergency/discharge/file2.txt
+./epscript/doctors/
+./epscript/doctors/doctors.18.csv
+./epscript/doctors/doctors.20.csv
+./epscript/doctors/doctors.15.csv
+./epscript/doctors/doctors.2.csv
+./epscript/doctors/doctors.14.csv
+./epscript/doctors/doctors.13.csv
+./epscript/doctors/doctors.10.csv
+./epscript/doctors/doctors.16.csv
+./epscript/doctors/doctors.9.csv
+./epscript/doctors/doctors.17.csv
+./epscript/doctors/doctors.5.csv
+./epscript/doctors/doctors.7.csv
+./epscript/doctors/doctors.1.csv
+./epscript/doctors/doctors.4.csv
+./epscript/doctors/doctors.19.csv
+./epscript/doctors/doctors.12.csv
+./epscript/doctors/doctors.11.csv
+./epscript/doctors/doctors.3.csv
+./epscript/doctors/doctors.8.csv
+./epscript/doctors/doctors.csv
+./epscript/doctors/doctors.6.csv
+./epscript/backup/
+./epscript/backup/20190814epscript.tar
+./epscript/backup/epscript/
+./epscript/backup/epscript/treatments/
+./epscript/backup/epscript/treatments/treatments.9.csv
+./epscript/backup/epscript/treatments/treatments.7.csv
+./epscript/backup/epscript/treatments/treatments.8.csv
+./epscript/backup/epscript/treatments/treatments.6.csv
+./epscript/backup/epscript/treatments/treatments.5.csv
+./epscript/backup/epscript/treatments/treatments.csv
+./epscript/backup/epscript/treatments/treatments.1.csv
+./epscript/backup/epscript/treatments/treatments.4.csv
+./epscript/backup/epscript/treatments/treatments.2.csv
+./epscript/backup/epscript/treatments/treatments.10.csv
+./epscript/backup/epscript/treatments/treatments.3.csv
+./epscript/backup/epscript/patients/
+./epscript/backup/epscript/patients/patients.6.csv
+./epscript/backup/epscript/patients/patients.10.csv
+./epscript/backup/epscript/patients/patients.7.csv
+./epscript/backup/epscript/patients/patients.2.csv
+./epscript/backup/epscript/patients/patients.5.csv
+./epscript/backup/epscript/patients/patients.csv
+./epscript/backup/epscript/patients/patients.9.csv
+./epscript/backup/epscript/patients/patients.1.csv
+./epscript/backup/epscript/patients/patients.8.csv
+./epscript/backup/epscript/patients/patients.3.csv
+./epscript/backup/epscript/patients/patients.4.csv
+./epscript/backup/epscript/doctors/
+./epscript/backup/epscript/doctors/doctors.2.csv
+./epscript/backup/epscript/doctors/doctors.10.csv
+./epscript/backup/epscript/doctors/doctors.9.csv
+./epscript/backup/epscript/doctors/doctors.5.csv
+./epscript/backup/epscript/doctors/doctors.7.csv
+./epscript/backup/epscript/doctors/doctors.1.csv
+./epscript/backup/epscript/doctors/doctors.4.csv
+./epscript/backup/epscript/doctors/doctors.3.csv
+./epscript/backup/epscript/doctors/doctors.8.csv
+./epscript/backup/epscript/doctors/doctors.csv
+./epscript/backup/epscript/doctors/doctors.6.csv
+./epscript/backup/log_checksum.txt
+sysadmin@UbuntuDesktop:~/Documents$ ^C
+sysadmin@UbuntuDesktop:~/Documents$ ^C
+sysadmin@UbuntuDesktop:~/Documents$ tar cvf 20190505epscript.tar epscript/ > 20190505epscript.txt
+sysadmin@UbuntuDesktop:~/Documents$ ls
+20190505epscript.tar  20190505.txt        emerg_backup.snar  ExploitTar    setup_scripts
+20190505epscript.txt  emerg_back_sun.tar  epscript           missingfiles
+sysadmin@UbuntuDesktop:~/Documents$ tar cvf 20190505epscript.tar epscript/ > 20190505epscript.txt
+sysadmin@UbuntuDesktop:~/Documents$ tar tvvf 20190505epscript.tar 
+drwxr-xr-x sysadmin/sysadmin 0 2020-07-14 10:15 epscript/
+drwxr-xr-x sysadmin/sysadmin 0 2020-07-14 10:14 epscript/treatments/
+drwxr-xr-x sysadmin/sysadmin 0 2020-07-14 10:14 epscript/treatments/backup/
+-rw-r--r-- sysadmin/sysadmin 409600 2020-07-14 10:14 epscript/treatments/backup/10May2019-235536-0700.tar
+drwxr-xr-x sysadmin/sysadmin      0 2020-07-14 10:14 epscript/testenvir/
+drwxr-xr-x sysadmin/sysadmin      0 2020-07-14 10:14 epscript/testenvir/doctor/
+-rw-r--r-- sysadmin/sysadmin   3798 2020-07-14 10:14 epscript/testenvir/doctor/doctors.18.csv
+-rw-r--r-- sysadmin/sysadmin   3852 2020-07-14 10:14 epscript/testenvir/doctor/doctors.20.csv
+-rw-r--r-- sysadmin/sysadmin   3822 2020-07-14 10:14 epscript/testenvir/doctor/doctors.15.csv
+-rw-r--r-- sysadmin/sysadmin   3795 2020-07-14 10:14 epscript/testenvir/doctor/doctors.2.csv
+-rw-r--r-- sysadmin/sysadmin   3834 2020-07-14 10:14 epscript/testenvir/doctor/doctors.14.csv
+-rw-r--r-- sysadmin/sysadmin   3803 2020-07-14 10:14 epscript/testenvir/doctor/doctors.13.csv
+-rw-r--r-- sysadmin/sysadmin   3843 2020-07-14 10:14 epscript/testenvir/doctor/doctors.10.csv
+-rw-r--r-- sysadmin/sysadmin   3758 2020-07-14 10:14 epscript/testenvir/doctor/doctors.16.csv
+-rw-r--r-- sysadmin/sysadmin   3769 2020-07-14 10:14 epscript/testenvir/doctor/doctors.9.csv
+-rw-r--r-- sysadmin/sysadmin   3811 2020-07-14 10:14 epscript/testenvir/doctor/doctors.17.csv
+-rw-r--r-- sysadmin/sysadmin   3781 2020-07-14 10:14 epscript/testenvir/doctor/doctors.5.csv
+-rw-r--r-- sysadmin/sysadmin   3775 2020-07-14 10:14 epscript/testenvir/doctor/doctors.7.csv
+-rw-r--r-- sysadmin/sysadmin   3704 2020-07-14 10:14 epscript/testenvir/doctor/doctors.1.csv
+-rw-r--r-- sysadmin/sysadmin   3781 2020-07-14 10:14 epscript/testenvir/doctor/doctors.4.csv
+-rw-r--r-- sysadmin/sysadmin   3743 2020-07-14 10:14 epscript/testenvir/doctor/doctors.19.csv
+-rw-r--r-- sysadmin/sysadmin   3885 2020-07-14 10:14 epscript/testenvir/doctor/doctors.12.csv
+-rw-r--r-- sysadmin/sysadmin   3784 2020-07-14 10:14 epscript/testenvir/doctor/doctors.11.csv
+-rw-r--r-- sysadmin/sysadmin   3767 2020-07-14 10:14 epscript/testenvir/doctor/doctors.3.csv
+-rw-r--r-- sysadmin/sysadmin   3760 2020-07-14 10:14 epscript/testenvir/doctor/doctors.8.csv
+-rw-r--r-- sysadmin/sysadmin  75982 2020-07-14 10:14 epscript/testenvir/doctor/doctors.csv
+-rw-r--r-- sysadmin/sysadmin   3795 2020-07-14 10:14 epscript/testenvir/doctor/doctors.6.csv
+drwxr-xr-x sysadmin/sysadmin      0 2020-07-14 10:14 epscript/testenvir/patient/
+-rw-r--r-- sysadmin/sysadmin   6288 2020-07-14 10:14 epscript/testenvir/patient/patients.20.csv
+-rw-r--r-- sysadmin/sysadmin   6232 2020-07-14 10:14 epscript/testenvir/patient/patients.6.csv
+-rw-r--r-- sysadmin/sysadmin   6268 2020-07-14 10:14 epscript/testenvir/patient/patients.13.csv
+-rw-r--r-- sysadmin/sysadmin   6236 2020-07-14 10:14 epscript/testenvir/patient/patients.10.csv
+-rw-r--r-- sysadmin/sysadmin   6202 2020-07-14 10:14 epscript/testenvir/patient/patients.7.csv
+-rw-r--r-- sysadmin/sysadmin   6170 2020-07-14 10:14 epscript/testenvir/patient/patients.15.csv
+-rw-r--r-- sysadmin/sysadmin   6250 2020-07-14 10:14 epscript/testenvir/patient/patients.11.csv
+-rw-r--r-- sysadmin/sysadmin   6202 2020-07-14 10:14 epscript/testenvir/patient/patients.2.csv
+-rw-r--r-- sysadmin/sysadmin   6102 2020-07-14 10:14 epscript/testenvir/patient/patients.19.csv
+-rw-r--r-- sysadmin/sysadmin   6287 2020-07-14 10:14 epscript/testenvir/patient/patients.17.csv
+-rw-r--r-- sysadmin/sysadmin   6363 2020-07-14 10:14 epscript/testenvir/patient/patients.5.csv
+-rw-r--r-- sysadmin/sysadmin 124379 2020-07-14 10:14 epscript/testenvir/patient/patients.csv
+-rw-r--r-- sysadmin/sysadmin   6266 2020-07-14 10:14 epscript/testenvir/patient/patients.9.csv
+-rw-r--r-- sysadmin/sysadmin   6329 2020-07-14 10:14 epscript/testenvir/patient/patients.1.csv
+-rw-r--r-- sysadmin/sysadmin   6311 2020-07-14 10:14 epscript/testenvir/patient/patients.12.csv
+-rw-r--r-- sysadmin/sysadmin   6273 2020-07-14 10:14 epscript/testenvir/patient/patients.14.csv
+-rw-r--r-- sysadmin/sysadmin   6236 2020-07-14 10:14 epscript/testenvir/patient/patients.8.csv
+-rw-r--r-- sysadmin/sysadmin   6208 2020-07-14 10:14 epscript/testenvir/patient/patients.18.csv
+-rw-r--r-- sysadmin/sysadmin   6211 2020-07-14 10:14 epscript/testenvir/patient/patients.3.csv
+-rw-r--r-- sysadmin/sysadmin   6361 2020-07-14 10:14 epscript/testenvir/patient/patients.16.csv
+-rw-r--r-- sysadmin/sysadmin   6520 2020-07-14 10:14 epscript/testenvir/patient/patients.4.csv
+drwxr-xr-x sysadmin/sysadmin      0 2020-07-14 10:14 epscript/testenvir/treatment/
+-rw-r--r-- sysadmin/sysadmin   9871 2020-07-14 10:14 epscript/testenvir/treatment/treatments.13.csv
+-rw-r--r-- sysadmin/sysadmin   9665 2020-07-14 10:14 epscript/testenvir/treatment/treatments.9.csv
+-rw-r--r-- sysadmin/sysadmin   9712 2020-07-14 10:14 epscript/testenvir/treatment/treatments.14.csv
+-rw-r--r-- sysadmin/sysadmin   9807 2020-07-14 10:14 epscript/testenvir/treatment/treatments.20.csv
+-rw-r--r-- sysadmin/sysadmin  10036 2020-07-14 10:14 epscript/testenvir/treatment/treatments.7.csv
+-rw-r--r-- sysadmin/sysadmin   9154 2020-07-14 10:14 epscript/testenvir/treatment/treatments.8.csv
+-rw-r--r-- sysadmin/sysadmin   9732 2020-07-14 10:14 epscript/testenvir/treatment/treatments.19.csv
+-rw-r--r-- sysadmin/sysadmin   9584 2020-07-14 10:14 epscript/testenvir/treatment/treatments.6.csv
+-rw-r--r-- sysadmin/sysadmin   9561 2020-07-14 10:14 epscript/testenvir/treatment/treatments.5.csv
+-rw-r--r-- sysadmin/sysadmin   9438 2020-07-14 10:14 epscript/testenvir/treatment/treatments.12.csv
+-rw-r--r-- sysadmin/sysadmin 190954 2020-07-14 10:14 epscript/testenvir/treatment/treatments.csv
+-rw-r--r-- sysadmin/sysadmin   9422 2020-07-14 10:14 epscript/testenvir/treatment/treatments.11.csv
+-rw-r--r-- sysadmin/sysadmin  10371 2020-07-14 10:14 epscript/testenvir/treatment/treatments.1.csv
+-rw-r--r-- sysadmin/sysadmin   9258 2020-07-14 10:14 epscript/testenvir/treatment/treatments.15.csv
+-rw-r--r-- sysadmin/sysadmin   9549 2020-07-14 10:14 epscript/testenvir/treatment/treatments.18.csv
+-rw-r--r-- sysadmin/sysadmin   9406 2020-07-14 10:14 epscript/testenvir/treatment/treatments.4.csv
+-rw-r--r-- sysadmin/sysadmin   9025 2020-07-14 10:14 epscript/testenvir/treatment/treatments.2.csv
+-rw-r--r-- sysadmin/sysadmin   8936 2020-07-14 10:14 epscript/testenvir/treatment/treatments.10.csv
+-rw-r--r-- sysadmin/sysadmin  10111 2020-07-14 10:14 epscript/testenvir/treatment/treatments.17.csv
+-rw-r--r-- sysadmin/sysadmin   8815 2020-07-14 10:14 epscript/testenvir/treatment/treatments.3.csv
+-rw-r--r-- sysadmin/sysadmin   9845 2020-07-14 10:14 epscript/testenvir/treatment/treatments.16.csv
+drwxr-xr-x sysadmin/sysadmin      0 2020-07-14 10:14 epscript/testenvir/treatment/backup/
+-rw-r--r-- sysadmin/sysadmin 142429 2020-07-14 10:14 epscript/testenvir/treatment/backup/10May2019-235536-0700.tar
+drwxr-xr-x sysadmin/sysadmin      0 2020-07-14 10:14 epscript/patients/
+-rw-r--r-- sysadmin/sysadmin   6288 2020-07-14 10:14 epscript/patients/patients.20.csv
+-rw-r--r-- sysadmin/sysadmin   6232 2020-07-14 10:14 epscript/patients/patients.6.csv
+-rw-r--r-- sysadmin/sysadmin   6268 2020-07-14 10:14 epscript/patients/patients.13.csv
+-rw-r--r-- sysadmin/sysadmin   6236 2020-07-14 10:14 epscript/patients/patients.10.csv
+-rw-r--r-- sysadmin/sysadmin   6202 2020-07-14 10:14 epscript/patients/patients.7.csv
+-rw-r--r-- sysadmin/sysadmin   6170 2020-07-14 10:14 epscript/patients/patients.15.csv
+-rw-r--r-- sysadmin/sysadmin   6250 2020-07-14 10:14 epscript/patients/patients.11.csv
+-rw-r--r-- sysadmin/sysadmin   6202 2020-07-14 10:14 epscript/patients/patients.2.csv
+-rw-r--r-- sysadmin/sysadmin   6102 2020-07-14 10:14 epscript/patients/patients.19.csv
+-rw-r--r-- sysadmin/sysadmin   6287 2020-07-14 10:14 epscript/patients/patients.17.csv
+-rw-r--r-- sysadmin/sysadmin   6363 2020-07-14 10:14 epscript/patients/patients.5.csv
+-rw-r--r-- sysadmin/sysadmin 124379 2020-07-14 10:14 epscript/patients/patients.csv
+-rw-r--r-- sysadmin/sysadmin   6266 2020-07-14 10:14 epscript/patients/patients.9.csv
+-rw-r--r-- sysadmin/sysadmin   6329 2020-07-14 10:14 epscript/patients/patients.1.csv
+-rw-r--r-- sysadmin/sysadmin   6311 2020-07-14 10:14 epscript/patients/patients.12.csv
+-rw-r--r-- sysadmin/sysadmin   6273 2020-07-14 10:14 epscript/patients/patients.14.csv
+-rw-r--r-- sysadmin/sysadmin   6236 2020-07-14 10:14 epscript/patients/patients.8.csv
+-rw-r--r-- sysadmin/sysadmin   6208 2020-07-14 10:14 epscript/patients/patients.18.csv
+-rw-r--r-- sysadmin/sysadmin   6211 2020-07-14 10:14 epscript/patients/patients.3.csv
+-rw-r--r-- sysadmin/sysadmin   6361 2020-07-14 10:14 epscript/patients/patients.16.csv
+-rw-r--r-- sysadmin/sysadmin   6520 2020-07-14 10:14 epscript/patients/patients.4.csv
+drwxr-xr-x sysadmin/sysadmin      0 2020-07-14 10:14 epscript/emergency/
+-rw-r--r-- sysadmin/sysadmin      0 2020-07-14 10:14 epscript/emergency/.gitkeep
+drwxr-xr-x sysadmin/sysadmin      0 2020-07-14 10:14 epscript/emergency/admit/
+-rw-r--r-- sysadmin/sysadmin    661 2020-07-14 10:14 epscript/emergency/admit/file3.txt
+-rw-r--r-- sysadmin/sysadmin    689 2020-07-14 10:14 epscript/emergency/admit/file1.txt
+-rw-r--r-- sysadmin/sysadmin    341 2020-07-14 10:14 epscript/emergency/admit/file5.txt
+-rw-r--r-- sysadmin/sysadmin    840 2020-07-14 10:14 epscript/emergency/admit/file4.txt
+drwxr-xr-x sysadmin/sysadmin      0 2020-07-14 10:14 epscript/emergency/discharge/
+-rw-r--r-- sysadmin/sysadmin    341 2020-07-14 10:14 epscript/emergency/discharge/file2.txt
+drwxr-xr-x sysadmin/sysadmin      0 2020-07-14 10:15 epscript/doctors/
+-rw-r--r-- sysadmin/sysadmin   3798 2020-07-14 10:14 epscript/doctors/doctors.18.csv
+-rw-r--r-- sysadmin/sysadmin   3852 2020-07-14 10:14 epscript/doctors/doctors.20.csv
+-rw-r--r-- sysadmin/sysadmin   3822 2020-07-14 10:14 epscript/doctors/doctors.15.csv
+-rw-r--r-- sysadmin/sysadmin   3795 2020-07-14 10:14 epscript/doctors/doctors.2.csv
+-rw-r--r-- sysadmin/sysadmin   3834 2020-07-14 10:14 epscript/doctors/doctors.14.csv
+-rw-r--r-- sysadmin/sysadmin   3803 2020-07-14 10:14 epscript/doctors/doctors.13.csv
+-rw-r--r-- sysadmin/sysadmin   3843 2020-07-14 10:14 epscript/doctors/doctors.10.csv
+-rw-r--r-- sysadmin/sysadmin   3758 2020-07-14 10:14 epscript/doctors/doctors.16.csv
+-rw-r--r-- sysadmin/sysadmin   3769 2020-07-14 10:14 epscript/doctors/doctors.9.csv
+-rw-r--r-- sysadmin/sysadmin   3811 2020-07-14 10:14 epscript/doctors/doctors.17.csv
+-rw-r--r-- sysadmin/sysadmin   3781 2020-07-14 10:14 epscript/doctors/doctors.5.csv
+-rw-r--r-- sysadmin/sysadmin   3775 2020-07-14 10:14 epscript/doctors/doctors.7.csv
+-rw-r--r-- sysadmin/sysadmin   3704 2020-07-14 10:14 epscript/doctors/doctors.1.csv
+-rw-r--r-- sysadmin/sysadmin   3781 2020-07-14 10:14 epscript/doctors/doctors.4.csv
+-rw-r--r-- sysadmin/sysadmin   3743 2020-07-14 10:15 epscript/doctors/doctors.19.csv
+-rw-r--r-- sysadmin/sysadmin   3885 2020-07-14 10:15 epscript/doctors/doctors.12.csv
+-rw-r--r-- sysadmin/sysadmin   3784 2020-07-14 10:15 epscript/doctors/doctors.11.csv
+-rw-r--r-- sysadmin/sysadmin   3767 2020-07-14 10:15 epscript/doctors/doctors.3.csv
+-rw-r--r-- sysadmin/sysadmin   3760 2020-07-14 10:15 epscript/doctors/doctors.8.csv
+-rw-r--r-- sysadmin/sysadmin  75982 2020-07-14 10:15 epscript/doctors/doctors.csv
+-rw-r--r-- sysadmin/sysadmin   3795 2020-07-14 10:15 epscript/doctors/doctors.6.csv
+drwxr-xr-x sysadmin/sysadmin      0 2020-08-25 07:58 epscript/backup/
+-rw-r--r-- sysadmin/sysadmin 807936 2020-07-14 10:15 epscript/backup/20190814epscript.tar
+drwxr-xr-x sysadmin/sysadmin      0 2019-08-14 20:56 epscript/backup/epscript/
+drwxr-xr-x sysadmin/sysadmin      0 2020-08-25 07:58 epscript/backup/epscript/treatments/
+-rw-r--r-- sysadmin/sysadmin  19493 2019-08-14 20:13 epscript/backup/epscript/treatments/treatments.9.csv
+-rw-r--r-- sysadmin/sysadmin  19416 2019-08-14 20:13 epscript/backup/epscript/treatments/treatments.7.csv
+-rw-r--r-- sysadmin/sysadmin  18936 2019-08-14 20:13 epscript/backup/epscript/treatments/treatments.8.csv
+-rw-r--r-- sysadmin/sysadmin  18693 2019-08-14 20:13 epscript/backup/epscript/treatments/treatments.6.csv
+-rw-r--r-- sysadmin/sysadmin  18434 2019-08-14 20:13 epscript/backup/epscript/treatments/treatments.5.csv
+-rw-r--r-- sysadmin/sysadmin 190954 2019-08-14 19:50 epscript/backup/epscript/treatments/treatments.csv
+-rw-r--r-- sysadmin/sysadmin  19229 2019-08-14 20:13 epscript/backup/epscript/treatments/treatments.1.csv
+-rw-r--r-- sysadmin/sysadmin  19023 2019-08-14 20:13 epscript/backup/epscript/treatments/treatments.4.csv
+-rw-r--r-- sysadmin/sysadmin  18054 2019-08-14 20:13 epscript/backup/epscript/treatments/treatments.2.csv
+-rw-r--r-- sysadmin/sysadmin  19372 2019-08-14 20:13 epscript/backup/epscript/treatments/treatments.10.csv
+-rw-r--r-- sysadmin/sysadmin  18978 2019-08-14 20:13 epscript/backup/epscript/treatments/treatments.3.csv
+drwxr-xr-x sysadmin/sysadmin      0 2020-08-25 07:58 epscript/backup/epscript/patients/
+-rw-r--r-- sysadmin/sysadmin  12364 2019-08-14 20:13 epscript/backup/epscript/patients/patients.6.csv
+-rw-r--r-- sysadmin/sysadmin  12193 2019-08-14 20:13 epscript/backup/epscript/patients/patients.10.csv
+-rw-r--r-- sysadmin/sysadmin  12344 2019-08-14 20:13 epscript/backup/epscript/patients/patients.7.csv
+-rw-r--r-- sysadmin/sysadmin  12534 2019-08-14 20:13 epscript/backup/epscript/patients/patients.2.csv
+-rw-r--r-- sysadmin/sysadmin  12305 2019-08-14 20:13 epscript/backup/epscript/patients/patients.5.csv
+-rw-r--r-- sysadmin/sysadmin 124379 2019-08-14 19:50 epscript/backup/epscript/patients/patients.csv
+-rw-r--r-- sysadmin/sysadmin  12298 2019-08-14 20:13 epscript/backup/epscript/patients/patients.9.csv
+-rw-r--r-- sysadmin/sysadmin  12334 2019-08-14 20:13 epscript/backup/epscript/patients/patients.1.csv
+-rw-r--r-- sysadmin/sysadmin  12334 2019-08-14 20:13 epscript/backup/epscript/patients/patients.8.csv
+-rw-r--r-- sysadmin/sysadmin  12398 2019-08-14 20:13 epscript/backup/epscript/patients/patients.3.csv
+-rw-r--r-- sysadmin/sysadmin  12241 2019-08-14 20:13 epscript/backup/epscript/patients/patients.4.csv
+drwxr-xr-x sysadmin/sysadmin      0 2019-08-14 20:13 epscript/backup/epscript/doctors/
+-rw-r--r-- sysadmin/sysadmin   7451 2019-08-14 20:13 epscript/backup/epscript/doctors/doctors.2.csv
+-rw-r--r-- sysadmin/sysadmin   7498 2019-08-14 20:13 epscript/backup/epscript/doctors/doctors.10.csv
+-rw-r--r-- sysadmin/sysadmin   7512 2019-08-14 20:13 epscript/backup/epscript/doctors/doctors.9.csv
+-rw-r--r-- sysadmin/sysadmin   7515 2019-08-14 20:13 epscript/backup/epscript/doctors/doctors.5.csv
+-rw-r--r-- sysadmin/sysadmin   7540 2019-08-14 20:13 epscript/backup/epscript/doctors/doctors.7.csv
+-rw-r--r-- sysadmin/sysadmin   7402 2019-08-14 20:13 epscript/backup/epscript/doctors/doctors.1.csv
+-rw-r--r-- sysadmin/sysadmin   7438 2019-08-14 20:13 epscript/backup/epscript/doctors/doctors.4.csv
+-rw-r--r-- sysadmin/sysadmin   7479 2019-08-14 20:13 epscript/backup/epscript/doctors/doctors.3.csv
+-rw-r--r-- sysadmin/sysadmin   7483 2019-08-14 20:13 epscript/backup/epscript/doctors/doctors.8.csv
+-rw-r--r-- sysadmin/sysadmin  75982 2019-08-14 19:50 epscript/backup/epscript/doctors/doctors.csv
+-rw-r--r-- sysadmin/sysadmin   7572 2019-08-14 20:13 epscript/backup/epscript/doctors/doctors.6.csv
+-rw-r--r-- sysadmin/sysadmin   2952 2020-08-25 07:51 epscript/backup/log_checksum.txt
+sysadmin@UbuntuDesktop:~/Documents$ cd epscript/backup/
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup$ ls
+20190814epscript.tar  epscript  log_checksum.txt
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup$ tar tvvf 20190814epscript.tar 
+drwxr-xr-x peleke/staff      0 2019-08-14 20:56 epscript/
+drwxr-xr-x peleke/staff      0 2019-08-14 20:13 epscript/patients/
+drwxr-xr-x peleke/staff      0 2019-08-14 20:13 epscript/treatments/
+drwxr-xr-x peleke/staff      0 2019-08-14 20:13 epscript/doctors/
+-rw-r--r-- peleke/staff  75982 2019-08-14 19:50 epscript/doctors/doctors.csv
+-rw-r--r-- peleke/staff   7483 2019-08-14 20:13 epscript/doctors/doctors.8.csv
+-rw-r--r-- peleke/staff   7512 2019-08-14 20:13 epscript/doctors/doctors.9.csv
+-rw-r--r-- peleke/staff   7498 2019-08-14 20:13 epscript/doctors/doctors.10.csv
+-rw-r--r-- peleke/staff   7451 2019-08-14 20:13 epscript/doctors/doctors.2.csv
+-rw-r--r-- peleke/staff   7479 2019-08-14 20:13 epscript/doctors/doctors.3.csv
+-rw-r--r-- peleke/staff   7402 2019-08-14 20:13 epscript/doctors/doctors.1.csv
+-rw-r--r-- peleke/staff   7438 2019-08-14 20:13 epscript/doctors/doctors.4.csv
+-rw-r--r-- peleke/staff   7515 2019-08-14 20:13 epscript/doctors/doctors.5.csv
+-rw-r--r-- peleke/staff   7540 2019-08-14 20:13 epscript/doctors/doctors.7.csv
+-rw-r--r-- peleke/staff   7572 2019-08-14 20:13 epscript/doctors/doctors.6.csv
+-rw-r--r-- peleke/staff  19372 2019-08-14 20:13 epscript/treatments/treatments.10.csv
+-rw-r--r-- peleke/staff  18936 2019-08-14 20:13 epscript/treatments/treatments.8.csv
+-rw-r--r-- peleke/staff  19493 2019-08-14 20:13 epscript/treatments/treatments.9.csv
+-rw-r--r-- peleke/staff 190954 2019-08-14 19:50 epscript/treatments/treatments.csv
+-rw-r--r-- peleke/staff  19416 2019-08-14 20:13 epscript/treatments/treatments.7.csv
+-rw-r--r-- peleke/staff  18693 2019-08-14 20:13 epscript/treatments/treatments.6.csv
+-rw-r--r-- peleke/staff  19023 2019-08-14 20:13 epscript/treatments/treatments.4.csv
+-rw-r--r-- peleke/staff  18434 2019-08-14 20:13 epscript/treatments/treatments.5.csv
+-rw-r--r-- peleke/staff  19229 2019-08-14 20:13 epscript/treatments/treatments.1.csv
+-rw-r--r-- peleke/staff  18054 2019-08-14 20:13 epscript/treatments/treatments.2.csv
+-rw-r--r-- peleke/staff  18978 2019-08-14 20:13 epscript/treatments/treatments.3.csv
+-rw-r--r-- peleke/staff  12364 2019-08-14 20:13 epscript/patients/patients.6.csv
+-rw-r--r-- peleke/staff  12344 2019-08-14 20:13 epscript/patients/patients.7.csv
+-rw-r--r-- peleke/staff  12305 2019-08-14 20:13 epscript/patients/patients.5.csv
+-rw-r--r-- peleke/staff  12193 2019-08-14 20:13 epscript/patients/patients.10.csv
+-rw-r--r-- peleke/staff  12241 2019-08-14 20:13 epscript/patients/patients.4.csv
+-rw-r--r-- peleke/staff  12334 2019-08-14 20:13 epscript/patients/patients.1.csv
+-rw-r--r-- peleke/staff  12398 2019-08-14 20:13 epscript/patients/patients.3.csv
+-rw-r--r-- peleke/staff  12534 2019-08-14 20:13 epscript/patients/patients.2.csv
+-rw-r--r-- peleke/staff 124379 2019-08-14 19:50 epscript/patients/patients.csv
+-rw-r--r-- peleke/staff  12298 2019-08-14 20:13 epscript/patients/patients.9.csv
+-rw-r--r-- peleke/staff  12334 2019-08-14 20:13 epscript/patients/patients.8.csv
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup$ tar xvvf 20190814epscript.tar /20190414epsscript
+tar: /20190414epsscript: Not found in archive
+tar: Exiting with failure status due to previous errors
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup$ tar xvvf 20190814epscript.tar
+drwxr-xr-x peleke/staff      0 2019-08-14 20:56 epscript/
+drwxr-xr-x peleke/staff      0 2019-08-14 20:13 epscript/patients/
+drwxr-xr-x peleke/staff      0 2019-08-14 20:13 epscript/treatments/
+drwxr-xr-x peleke/staff      0 2019-08-14 20:13 epscript/doctors/
+-rw-r--r-- peleke/staff  75982 2019-08-14 19:50 epscript/doctors/doctors.csv
+-rw-r--r-- peleke/staff   7483 2019-08-14 20:13 epscript/doctors/doctors.8.csv
+-rw-r--r-- peleke/staff   7512 2019-08-14 20:13 epscript/doctors/doctors.9.csv
+-rw-r--r-- peleke/staff   7498 2019-08-14 20:13 epscript/doctors/doctors.10.csv
+-rw-r--r-- peleke/staff   7451 2019-08-14 20:13 epscript/doctors/doctors.2.csv
+-rw-r--r-- peleke/staff   7479 2019-08-14 20:13 epscript/doctors/doctors.3.csv
+-rw-r--r-- peleke/staff   7402 2019-08-14 20:13 epscript/doctors/doctors.1.csv
+-rw-r--r-- peleke/staff   7438 2019-08-14 20:13 epscript/doctors/doctors.4.csv
+-rw-r--r-- peleke/staff   7515 2019-08-14 20:13 epscript/doctors/doctors.5.csv
+-rw-r--r-- peleke/staff   7540 2019-08-14 20:13 epscript/doctors/doctors.7.csv
+-rw-r--r-- peleke/staff   7572 2019-08-14 20:13 epscript/doctors/doctors.6.csv
+-rw-r--r-- peleke/staff  19372 2019-08-14 20:13 epscript/treatments/treatments.10.csv
+-rw-r--r-- peleke/staff  18936 2019-08-14 20:13 epscript/treatments/treatments.8.csv
+-rw-r--r-- peleke/staff  19493 2019-08-14 20:13 epscript/treatments/treatments.9.csv
+-rw-r--r-- peleke/staff 190954 2019-08-14 19:50 epscript/treatments/treatments.csv
+-rw-r--r-- peleke/staff  19416 2019-08-14 20:13 epscript/treatments/treatments.7.csv
+-rw-r--r-- peleke/staff  18693 2019-08-14 20:13 epscript/treatments/treatments.6.csv
+-rw-r--r-- peleke/staff  19023 2019-08-14 20:13 epscript/treatments/treatments.4.csv
+-rw-r--r-- peleke/staff  18434 2019-08-14 20:13 epscript/treatments/treatments.5.csv
+-rw-r--r-- peleke/staff  19229 2019-08-14 20:13 epscript/treatments/treatments.1.csv
+-rw-r--r-- peleke/staff  18054 2019-08-14 20:13 epscript/treatments/treatments.2.csv
+-rw-r--r-- peleke/staff  18978 2019-08-14 20:13 epscript/treatments/treatments.3.csv
+-rw-r--r-- peleke/staff  12364 2019-08-14 20:13 epscript/patients/patients.6.csv
+-rw-r--r-- peleke/staff  12344 2019-08-14 20:13 epscript/patients/patients.7.csv
+-rw-r--r-- peleke/staff  12305 2019-08-14 20:13 epscript/patients/patients.5.csv
+-rw-r--r-- peleke/staff  12193 2019-08-14 20:13 epscript/patients/patients.10.csv
+-rw-r--r-- peleke/staff  12241 2019-08-14 20:13 epscript/patients/patients.4.csv
+-rw-r--r-- peleke/staff  12334 2019-08-14 20:13 epscript/patients/patients.1.csv
+-rw-r--r-- peleke/staff  12398 2019-08-14 20:13 epscript/patients/patients.3.csv
+-rw-r--r-- peleke/staff  12534 2019-08-14 20:13 epscript/patients/patients.2.csv
+-rw-r--r-- peleke/staff 124379 2019-08-14 19:50 epscript/patients/patients.csv
+-rw-r--r-- peleke/staff  12298 2019-08-14 20:13 epscript/patients/patients.9.csv
+-rw-r--r-- peleke/staff  12334 2019-08-14 20:13 epscript/patients/patients.8.csv
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup$ ll
+total 808
+drwxr-xr-x 3 sysadmin sysadmin   4096 Aug 25 07:58 ./
+drwxr-xr-x 8 sysadmin sysadmin   4096 Jul 14 10:15 ../
+-rw-r--r-- 1 sysadmin sysadmin 807936 Jul 14 10:15 20190814epscript.tar
+drwxr-xr-x 5 sysadmin sysadmin   4096 Aug 14  2019 epscript/
+-rw-r--r-- 1 sysadmin sysadmin   2952 Aug 25 07:51 log_checksum.txt
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup$ ll
+total 808
+drwxr-xr-x 3 sysadmin sysadmin   4096 Aug 25 07:58 ./
+drwxr-xr-x 8 sysadmin sysadmin   4096 Jul 14 10:15 ../
+-rw-r--r-- 1 sysadmin sysadmin 807936 Jul 14 10:15 20190814epscript.tar
+drwxr-xr-x 5 sysadmin sysadmin   4096 Aug 14  2019 epscript/
+-rw-r--r-- 1 sysadmin sysadmin   2952 Aug 25 07:51 log_checksum.txt
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup$ cd eps
+bash: cd: eps: No such file or directory
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup$ ll epscript/
+total 20
+drwxr-xr-x 5 sysadmin sysadmin 4096 Aug 14  2019 ./
+drwxr-xr-x 3 sysadmin sysadmin 4096 Aug 25 07:58 ../
+drwxr-xr-x 2 sysadmin sysadmin 4096 Aug 14  2019 doctors/
+drwxr-xr-x 2 sysadmin sysadmin 4096 Sep  1 22:43 patients/
+drwxr-xr-x 2 sysadmin sysadmin 4096 Sep  1 22:43 treatments/
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup$ cd epscript/
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup/epscript$ cd patients/
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup/epscript/patients$ ls
+patients.10.csv  patients.2.csv  patients.4.csv  patients.6.csv  patients.8.csv  patients.csv
+patients.1.csv   patients.3.csv  patients.5.csv  patients.7.csv  patients.9.csv
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup/epscript/patients$ grep "[Mark],[Lopez]"
+^C
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup/epscript/patients$ grep "[Mark],[Lopez]" /
+grep: /: Is a directory
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup/epscript/patients$ grep . "[Mark],[Lopez]"
+grep: [Mark],[Lopez]: No such file or directory
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup/epscript/patients$ grep -f "[Mark],[Lopez]"
+grep: [Mark],[Lopez]: No such file or directory
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup/epscript/patients$ man grep
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup/epscript/patients$ grep -e "[Mark],[Lopez]" patients.*.*
+patients.10.csv:933,Cynthia,Lewis,male,B,84,665-514-4341x27382,kpowell@gmail.com,general,"11232 David Ports
+patients.10.csv:952,Jessica,Lowe,female,A,46,939-455-9113,donna98@wolfe.info,media,"678 Nguyen Pike Apt. 202
+patients.10.csv:989,Lisa,Lewis,male,B,42,637.543.5646x490,brandyschwartz@hotmail.com,Mr,"Unit 3687 Box 6827
+patients.1.csv:48,Erik,Livingston,female,B,44,(580)931-5556,tara34@richard.com,center,"48936 Todd Light Suite 210
+patients.2.csv:142,Jennifer,Lee,male,O,22,054-831-0320x2453,jenniferhayes@cooper.com,city,"12559 Frank Tunnel Suite 102
+patients.2.csv:180,Alyssa,Lee,female,B,15,001-366-326-7454x159,christopher20@gomez.com,agreement,"65637 Williams Trail
+patients.3.csv:226,Rebecca,Lee,female,A,85,135-423-6374x13954,elizabeth94@gmail.com,figure,"985 Jose Rest
+patients.4.csv:360,Angela,Lucas,male,A,76,(869)201-4216,christopher31@gmail.com,bring,"6791 Bianca Stravenue Suite 684
+patients.4.csv:363,Heather,Luna,female,AB,46,001-649-349-1651x465,charlesmayo@montgomery-gonzalez.com,seek,"Unit 3466 Box 5633
+patients.4.csv:383,Diana,Lewis,male,B,48,001-824-722-8816x58061,heatherhunt@mathews.com,western,"Unit 6568 Box 2902
+patients.5.csv:437,Jennifer,Livingston,male,B,50,(447)876-0297x021,rhines@glass.com,understand,"49535 Lopez Cape
+patients.6.csv:523,Christopher,Lambert,female,O,79,3848711359,wrodriguez@hotmail.com,language,"007 Macias Center Apt. 077
+patients.9.csv:809,Mark,Lopez,male,O,31,577.511.1054x23935,jeffrey93@jones.net,model,"673 Schultz Spur Apt. 244
+patients.9.csv:853,Christopher,Lopez,female,A,70,245.991.2806x3961,emily75@walker.com,age,"171 Paula Inlet
+patients.9.csv:894,Tonya,Long,male,AB,46,(048)349-1991x9015,mark33@lozano.com,create,"978 Marshall Springs Apt. 035
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup/epscript/patients$ grep -s "[Mark],[Lopez]" patients.*.*
+patients.10.csv:933,Cynthia,Lewis,male,B,84,665-514-4341x27382,kpowell@gmail.com,general,"11232 David Ports
+patients.10.csv:952,Jessica,Lowe,female,A,46,939-455-9113,donna98@wolfe.info,media,"678 Nguyen Pike Apt. 202
+patients.10.csv:989,Lisa,Lewis,male,B,42,637.543.5646x490,brandyschwartz@hotmail.com,Mr,"Unit 3687 Box 6827
+patients.1.csv:48,Erik,Livingston,female,B,44,(580)931-5556,tara34@richard.com,center,"48936 Todd Light Suite 210
+patients.2.csv:142,Jennifer,Lee,male,O,22,054-831-0320x2453,jenniferhayes@cooper.com,city,"12559 Frank Tunnel Suite 102
+patients.2.csv:180,Alyssa,Lee,female,B,15,001-366-326-7454x159,christopher20@gomez.com,agreement,"65637 Williams Trail
+patients.3.csv:226,Rebecca,Lee,female,A,85,135-423-6374x13954,elizabeth94@gmail.com,figure,"985 Jose Rest
+patients.4.csv:360,Angela,Lucas,male,A,76,(869)201-4216,christopher31@gmail.com,bring,"6791 Bianca Stravenue Suite 684
+patients.4.csv:363,Heather,Luna,female,AB,46,001-649-349-1651x465,charlesmayo@montgomery-gonzalez.com,seek,"Unit 3466 Box 5633
+patients.4.csv:383,Diana,Lewis,male,B,48,001-824-722-8816x58061,heatherhunt@mathews.com,western,"Unit 6568 Box 2902
+patients.5.csv:437,Jennifer,Livingston,male,B,50,(447)876-0297x021,rhines@glass.com,understand,"49535 Lopez Cape
+patients.6.csv:523,Christopher,Lambert,female,O,79,3848711359,wrodriguez@hotmail.com,language,"007 Macias Center Apt. 077
+patients.9.csv:809,Mark,Lopez,male,O,31,577.511.1054x23935,jeffrey93@jones.net,model,"673 Schultz Spur Apt. 244
+patients.9.csv:853,Christopher,Lopez,female,A,70,245.991.2806x3961,emily75@walker.com,age,"171 Paula Inlet
+patients.9.csv:894,Tonya,Long,male,AB,46,(048)349-1991x9015,mark33@lozano.com,create,"978 Marshall Springs Apt. 035
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup/epscript/patients$ man grep
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup/epscript/patients$ grep -F "[Mark],[Lopez]" patients.*.*
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup/epscript/patients$ grep -F "Mark,Lopez" patients.*.*
+patients.9.csv:809,Mark,Lopez,male,O,31,577.511.1054x23935,jeffrey93@jones.net,model,"673 Schultz Spur Apt. 244
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup/epscript/patients$ cd ..
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup/epscript$ grep -F "Mark,Lopez" patients.*.*
+grep: patients.*.*: No such file or directory
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup/epscript$ grep -F "Mark,Lopez" /
+grep: /: Is a directory
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup/epscript$ grep -F "Mark,Lopez" /*
+grep: /bin: Is a directory
+grep: /boot: Is a directory
+grep: /cdrom: Is a directory
+grep: /dev: Is a directory
+grep: /etc: Is a directory
+grep: /home: Is a directory
+grep: /lib: Is a directory
+grep: /lib32: Is a directory
+grep: /lib64: Is a directory
+grep: /lost+found: Permission denied
+grep: /media: Is a directory
+grep: /mnt: Is a directory
+grep: /opt: Is a directory
+grep: /proc: Is a directory
+grep: /root: Permission denied
+grep: /run: Is a directory
+grep: /sbin: Is a directory
+grep: /snap: Is a directory
+grep: /splunk: Is a directory
+grep: /srv: Is a directory
+grep: /swapfile: Permission denied
+grep: /sys: Is a directory
+grep: /tmp: Is a directory
+grep: /usr: Is a directory
+grep: /vagrant: Is a directory
+grep: /var: Is a directory
+grep: /vmlinuz: Permission denied
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup/epscript$ ^C
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup/epscript$ grep -F "Mark,Lopez" ./*
+grep: ./doctors: Is a directory
+grep: ./patients: Is a directory
+grep: ./treatments: Is a directory
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup/epscript$ grep -F "Mark,Lopez" patients.*.*
+grep: patients.*.*: No such file or directory
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup/epscript$ grep -F "Mark,Lopez" ./*/patients.*.*
+./patients/patients.9.csv:809,Mark,Lopez,male,O,31,577.511.1054x23935,jeffrey93@jones.net,model,"673 Schultz Spur Apt. 244
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup/epscript$ grep -R "Mark,Lopez" ./*/patients.*.*
+./patients/patients.9.csv:809,Mark,Lopez,male,O,31,577.511.1054x23935,jeffrey93@jones.net,model,"673 Schultz Spur Apt. 244
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup/epscript$ grep -R "Mark,Lopez" ./*/patients.*.*
+./patients/patients.9.csv:809,Mark,Lopez,male,O,31,577.511.1054x23935,jeffrey93@jones.net,model,"673 Schultz Spur Apt. 244
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup/epscript$ grep -R "Mark,Lopez"
+patients/patients.csv:809,Mark,Lopez,male,O,31,577.511.1054x23935,jeffrey93@jones.net,model,"673 Schultz Spur Apt. 244
+patients/patients.9.csv:809,Mark,Lopez,male,O,31,577.511.1054x23935,jeffrey93@jones.net,model,"673 Schultz Spur Apt. 244
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup/epscript$ grep -R "Mark,Lopez"
+patients/patients.csv:809,Mark,Lopez,male,O,31,577.511.1054x23935,jeffrey93@jones.net,model,"673 Schultz Spur Apt. 244
+patients/patients.9.csv:809,Mark,Lopez,male,O,31,577.511.1054x23935,jeffrey93@jones.net,model,"673 Schultz Spur Apt. 244
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup/epscript$ grep -R "Mark,Lopez"
+patients/patients.csv:809,Mark,Lopez,male,O,31,577.511.1054x23935,jeffrey93@jones.net,model,"673 Schultz Spur Apt. 244
+patients/patients.9.csv:809,Mark,Lopez,male,O,31,577.511.1054x23935,jeffrey93@jones.net,model,"673 Schultz Spur Apt. 244
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup/epscript$ grep -R "Mark,Lopez"
+patients/patients.csv:809,Mark,Lopez,male,O,31,577.511.1054x23935,jeffrey93@jones.net,model,"673 Schultz Spur Apt. 244
+patients/patients.9.csv:809,Mark,Lopez,male,O,31,577.511.1054x23935,jeffrey93@jones.net,model,"673 Schultz Spur Apt. 244
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup/epscript$ grep -R "Mark,Lopez" | "Megan,Patel"
+Megan,Patel: command not found
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup/epscript$ grep -R "Mark,Lopez", "Megan,Patel"
+grep: Megan,Patel: No such file or directory
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup/epscript$ grep -R ["Mark,Lopez", "Megan,Patel"]
+grep: Unmatched [ or [^
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup/epscript$ grep -R "Mark,Lopez" && grep -R "Megan,Patel"
+patients/patients.csv:809,Mark,Lopez,male,O,31,577.511.1054x23935,jeffrey93@jones.net,model,"673 Schultz Spur Apt. 244
+patients/patients.9.csv:809,Mark,Lopez,male,O,31,577.511.1054x23935,jeffrey93@jones.net,model,"673 Schultz Spur Apt. 244
+patients/patients.7.csv:699,Megan,Patel,female,AB,43,001-684-391-7956,pjohnson@gmail.com,develop,"53082 Lopez Island
+patients/patients.csv:699,Megan,Patel,female,AB,43,001-684-391-7956,pjohnson@gmail.com,develop,"53082 Lopez Island
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup/epscript$ cd ..
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup$ mkdir patient_search
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup$ ll
+total 812
+drwxr-xr-x 4 sysadmin sysadmin   4096 Sep  1 23:17 ./
+drwxr-xr-x 8 sysadmin sysadmin   4096 Jul 14 10:15 ../
+-rw-r--r-- 1 sysadmin sysadmin 807936 Jul 14 10:15 20190814epscript.tar
+drwxr-xr-x 5 sysadmin sysadmin   4096 Aug 14  2019 epscript/
+-rw-r--r-- 1 sysadmin sysadmin   2952 Aug 25 07:51 log_checksum.txt
+drwxr-xr-x 2 sysadmin sysadmin   4096 Sep  1 23:17 patient_search/
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup$ tar xvvf 20190814epscript.tar -R -C patient_search/epscript/patients
+tar: patient_search/epscript/patients: Cannot open: No such file or directory
+tar: Error is not recoverable: exiting now
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup$ ll
+total 812
+drwxr-xr-x 4 sysadmin sysadmin   4096 Sep  1 23:17 ./
+drwxr-xr-x 8 sysadmin sysadmin   4096 Jul 14 10:15 ../
+-rw-r--r-- 1 sysadmin sysadmin 807936 Jul 14 10:15 20190814epscript.tar
+drwxr-xr-x 5 sysadmin sysadmin   4096 Aug 14  2019 epscript/
+-rw-r--r-- 1 sysadmin sysadmin   2952 Aug 25 07:51 log_checksum.txt
+drwxr-xr-x 2 sysadmin sysadmin   4096 Sep  1 23:17 patient_search/
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup$ tar xvvf 20190814epscript.tar -R -C patient_search/epscript
+tar: patient_search/epscript: Cannot open: No such file or directory
+tar: Error is not recoverable: exiting now
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup$ tar xvvf 20190814epscript.tar -R -C patient_search
+block 1: drwxr-xr-x peleke/staff      0 2019-08-14 20:56 epscript/
+block 2: drwxr-xr-x peleke/staff      0 2019-08-14 20:13 epscript/patients/
+block 3: drwxr-xr-x peleke/staff      0 2019-08-14 20:13 epscript/treatments/
+block 4: drwxr-xr-x peleke/staff      0 2019-08-14 20:13 epscript/doctors/
+block 5: -rw-r--r-- peleke/staff  75982 2019-08-14 19:50 epscript/doctors/doctors.csv
+block 155: -rw-r--r-- peleke/staff   7483 2019-08-14 20:13 epscript/doctors/doctors.8.csv
+block 171: -rw-r--r-- peleke/staff   7512 2019-08-14 20:13 epscript/doctors/doctors.9.csv
+block 187: -rw-r--r-- peleke/staff   7498 2019-08-14 20:13 epscript/doctors/doctors.10.csv
+block 203: -rw-r--r-- peleke/staff   7451 2019-08-14 20:13 epscript/doctors/doctors.2.csv
+block 219: -rw-r--r-- peleke/staff   7479 2019-08-14 20:13 epscript/doctors/doctors.3.csv
+block 235: -rw-r--r-- peleke/staff   7402 2019-08-14 20:13 epscript/doctors/doctors.1.csv
+block 251: -rw-r--r-- peleke/staff   7438 2019-08-14 20:13 epscript/doctors/doctors.4.csv
+block 267: -rw-r--r-- peleke/staff   7515 2019-08-14 20:13 epscript/doctors/doctors.5.csv
+block 283: -rw-r--r-- peleke/staff   7540 2019-08-14 20:13 epscript/doctors/doctors.7.csv
+block 299: -rw-r--r-- peleke/staff   7572 2019-08-14 20:13 epscript/doctors/doctors.6.csv
+block 315: -rw-r--r-- peleke/staff  19372 2019-08-14 20:13 epscript/treatments/treatments.10.csv
+block 354: -rw-r--r-- peleke/staff  18936 2019-08-14 20:13 epscript/treatments/treatments.8.csv
+block 392: -rw-r--r-- peleke/staff  19493 2019-08-14 20:13 epscript/treatments/treatments.9.csv
+block 432: -rw-r--r-- peleke/staff 190954 2019-08-14 19:50 epscript/treatments/treatments.csv
+block 806: -rw-r--r-- peleke/staff  19416 2019-08-14 20:13 epscript/treatments/treatments.7.csv
+block 845: -rw-r--r-- peleke/staff  18693 2019-08-14 20:13 epscript/treatments/treatments.6.csv
+block 883: -rw-r--r-- peleke/staff  19023 2019-08-14 20:13 epscript/treatments/treatments.4.csv
+block 922: -rw-r--r-- peleke/staff  18434 2019-08-14 20:13 epscript/treatments/treatments.5.csv
+block 960: -rw-r--r-- peleke/staff  19229 2019-08-14 20:13 epscript/treatments/treatments.1.csv
+block 999: -rw-r--r-- peleke/staff  18054 2019-08-14 20:13 epscript/treatments/treatments.2.csv
+block 1036: -rw-r--r-- peleke/staff  18978 2019-08-14 20:13 epscript/treatments/treatments.3.csv
+block 1075: -rw-r--r-- peleke/staff  12364 2019-08-14 20:13 epscript/patients/patients.6.csv
+block 1101: -rw-r--r-- peleke/staff  12344 2019-08-14 20:13 epscript/patients/patients.7.csv
+block 1127: -rw-r--r-- peleke/staff  12305 2019-08-14 20:13 epscript/patients/patients.5.csv
+block 1153: -rw-r--r-- peleke/staff  12193 2019-08-14 20:13 epscript/patients/patients.10.csv
+block 1178: -rw-r--r-- peleke/staff  12241 2019-08-14 20:13 epscript/patients/patients.4.csv
+block 1203: -rw-r--r-- peleke/staff  12334 2019-08-14 20:13 epscript/patients/patients.1.csv
+block 1229: -rw-r--r-- peleke/staff  12398 2019-08-14 20:13 epscript/patients/patients.3.csv
+block 1255: -rw-r--r-- peleke/staff  12534 2019-08-14 20:13 epscript/patients/patients.2.csv
+block 1281: -rw-r--r-- peleke/staff 124379 2019-08-14 19:50 epscript/patients/patients.csv
+block 1525: -rw-r--r-- peleke/staff  12298 2019-08-14 20:13 epscript/patients/patients.9.csv
+block 1551: -rw-r--r-- peleke/staff  12334 2019-08-14 20:13 epscript/patients/patients.8.csv
+block 1576: ** Block of NULs **
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup$ ls -l patient_search/epscript/patients/
+total 276
+-rw-r--r-- 1 sysadmin sysadmin  12193 Aug 14  2019 patients.10.csv
+-rw-r--r-- 1 sysadmin sysadmin  12334 Aug 14  2019 patients.1.csv
+-rw-r--r-- 1 sysadmin sysadmin  12534 Aug 14  2019 patients.2.csv
+-rw-r--r-- 1 sysadmin sysadmin  12398 Aug 14  2019 patients.3.csv
+-rw-r--r-- 1 sysadmin sysadmin  12241 Aug 14  2019 patients.4.csv
+-rw-r--r-- 1 sysadmin sysadmin  12305 Aug 14  2019 patients.5.csv
+-rw-r--r-- 1 sysadmin sysadmin  12364 Aug 14  2019 patients.6.csv
+-rw-r--r-- 1 sysadmin sysadmin  12344 Aug 14  2019 patients.7.csv
+-rw-r--r-- 1 sysadmin sysadmin  12334 Aug 14  2019 patients.8.csv
+-rw-r--r-- 1 sysadmin sysadmin  12298 Aug 14  2019 patients.9.csv
+-rw-r--r-- 1 sysadmin sysadmin 124379 Aug 14  2019 patients.csv
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup$ grep -R "Mark,Lopez" && grep -R "Megan,Patel"
+Binary file 20190814epscript.tar matches
+epscript/patients/patients.csv:809,Mark,Lopez,male,O,31,577.511.1054x23935,jeffrey93@jones.net,model,"673 Schultz Spur Apt. 244
+epscript/patients/patients.9.csv:809,Mark,Lopez,male,O,31,577.511.1054x23935,jeffrey93@jones.net,model,"673 Schultz Spur Apt. 244
+patient_search/epscript/patients/patients.csv:809,Mark,Lopez,male,O,31,577.511.1054x23935,jeffrey93@jones.net,model,"673 Schultz Spur Apt. 244
+patient_search/epscript/patients/patients.9.csv:809,Mark,Lopez,male,O,31,577.511.1054x23935,jeffrey93@jones.net,model,"673 Schultz Spur Apt. 244
+Binary file 20190814epscript.tar matches
+epscript/patients/patients.7.csv:699,Megan,Patel,female,AB,43,001-684-391-7956,pjohnson@gmail.com,develop,"53082 Lopez Island
+epscript/patients/patients.csv:699,Megan,Patel,female,AB,43,001-684-391-7956,pjohnson@gmail.com,develop,"53082 Lopez Island
+patient_search/epscript/patients/patients.7.csv:699,Megan,Patel,female,AB,43,001-684-391-7956,pjohnson@gmail.com,develop,"53082 Lopez Island
+patient_search/epscript/patients/patients.csv:699,Megan,Patel,female,AB,43,001-684-391-7956,pjohnson@gmail.com,develop,"53082 Lopez Island
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup$ tar xvvf 20190814epscript.tar -R -C patient_search/ epscript/patients
+block 2: drwxr-xr-x peleke/staff      0 2019-08-14 20:13 epscript/patients/
+block 2: drwxr-xr-x                  Creating directory: epscript
+block 1075: -rw-r--r-- peleke/staff  12364 2019-08-14 20:13 epscript/patients/patients.6.csv
+block 1101: -rw-r--r-- peleke/staff  12344 2019-08-14 20:13 epscript/patients/patients.7.csv
+block 1127: -rw-r--r-- peleke/staff  12305 2019-08-14 20:13 epscript/patients/patients.5.csv
+block 1153: -rw-r--r-- peleke/staff  12193 2019-08-14 20:13 epscript/patients/patients.10.csv
+block 1178: -rw-r--r-- peleke/staff  12241 2019-08-14 20:13 epscript/patients/patients.4.csv
+block 1203: -rw-r--r-- peleke/staff  12334 2019-08-14 20:13 epscript/patients/patients.1.csv
+block 1229: -rw-r--r-- peleke/staff  12398 2019-08-14 20:13 epscript/patients/patients.3.csv
+block 1255: -rw-r--r-- peleke/staff  12534 2019-08-14 20:13 epscript/patients/patients.2.csv
+block 1281: -rw-r--r-- peleke/staff 124379 2019-08-14 19:50 epscript/patients/patients.csv
+block 1525: -rw-r--r-- peleke/staff  12298 2019-08-14 20:13 epscript/patients/patients.9.csv
+block 1551: -rw-r--r-- peleke/staff  12334 2019-08-14 20:13 epscript/patients/patients.8.csv
+block 1576: ** Block of NULs **
+sysadmin@UbuntuDesktop:~/Documents/epscript/backup$ 
