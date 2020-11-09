@@ -1,0 +1,20 @@
+---
+
+  - name: dvwa-setup
+    hosts: webservers
+    become: true
+    roles:
+    - setup-dvwa
+    
+  - name: elk-setup
+    hosts: elk
+    become: true
+    roles:
+    - setup-elk
+
+  - name: beat-setup
+    hosts: webservers
+    become: true
+    roles:
+    - setup-filebeat
+    - setup-metricbeat

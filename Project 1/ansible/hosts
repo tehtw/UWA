@@ -19,12 +19,12 @@
 # Ex 2: A collection of hosts belonging to the 'webservers' group
 
 [webservers]
-tehtw@10.0.0.5 ansible_python_interpreter=/usr/bin/python3
-tehtw@10.0.0.6 ansible_python_interpreter=/usr/bin/python3
-tehtw@10.0.0.7 ansible_python_interpreter=/usr/bin/python3
+dvwa@10.0.0.5 ansible_python_interpreter=/usr/bin/python3
+dvwa@10.0.0.6 ansible_python_interpreter=/usr/bin/python3
+dvwa@10.0.0.7 ansible_python_interpreter=/usr/bin/python3
 
 [elk]
-elk-tehtw@10.1.0.4 ansible_python_interpreter=/usr/bin/python3
+elk@10.1.0.4 ansible_python_interpreter=/usr/bin/python3
 
 
 
