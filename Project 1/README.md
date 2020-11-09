@@ -81,7 +81,7 @@ These instructions assume that you have a similar network topology to the above 
 1805  host: "10.1.0.4:5601" # TODO: Change this to the IP address of your ELK server
 ~~~
 
-* Update the metricbeat-config.yml - Change IP address of the ELK virtual machine. (Line 61 & 1804)
+* Update the metricbeat-config.yml - Change IP address of the ELK virtual machine. (Line 61 & 93)
 ~~~
 61  setup.kibana:
 62  host: "10.1.0.4:5601"
